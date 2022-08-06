@@ -1,0 +1,107 @@
+[draggable="true"] {
+  cursor: move;
+}
+body{
+  background-color: rgb(97, 126, 200);
+  margin-right: 8px;
+  height: 100%;
+}
+.word{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 10vh;
+}
+.wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.boxone{
+  display: flex;
+  width: 100%;
+}
+.target{
+  border: 2px dashed gray;
+  margin:10px;
+  padding:10px;
+  border-radius: 5px;
+  display: flex;
+}
+.target.over{
+  border: 2px dashed rgb(97, 126, 200);
+  background-color: rgba(107, 191, 236, 0.101);
+}
+#target1{
+  height: 30%;
+  width: 100%;
+  min-height: 90px;
+  display: inline-block;
+}
+#target2,#target3{
+  width: 50%;
+  height: 70%;
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 59vh;
+}
+.box{
+  width: 6.5vw;
+  height: 6vw;
+  background: rgb(107, 191, 236);
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  border-radius: 5px;
+  
+}
+.container{
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+h1{
+  color: rgb(97, 126, 200); 
+}
+
+.wordbox{
+  width: 100%;
+  height: 25px;
+  margin: 5px;
+  border-bottom-style: solid;
+  border-color: rgb(97, 126, 200);
+  color: rgb(97, 126, 200);
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+/* .triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 100px 0 0;
+  border-color: rgb(97, 126, 200) transparent transparent transparent;
+}
+.triangletwo{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 200px 200px;
+  border-color: transparent transparent rgb(97, 126, 200) transparent;
+  flex-direction: row-reverse;
+  float: right;
+} */
+/*手機排版 480-768*/
+/* @media screen and (min-width:480px) and (max-width:768px){
+  h1{
+    color: rgb(206, 37, 37);
+  }
+  
+} */
+/*平板排版 768-1200*/
+/* @media screen  and (min-width:768px) and (max-width:1200px){
+  h1{
+    color: #ffa;
+  }
+} */
