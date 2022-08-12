@@ -1,0 +1,141 @@
+[draggable="true"] {
+    cursor: move;
+  }
+body{
+    background-color: #e8a5a5;
+    margin-right: 8px;
+    height: 100%;
+}
+.main-header .header-container{
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+}
+.main-nav{
+    float: right;/*??沒效*/
+    margin: auto;
+    padding: 20px 0px;
+}
+.main-nav a{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    transform: translateY(0px);
+    color: white;
+    margin: 15px;
+    font-size: larger;
+}
+.main-nav a:hover{
+    color: rgb(219, 103, 167);
+    transform: translateY(-10px);
+}
+.logo{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    padding: 10px 0px;
+    color: white;
+    font-size:larger;
+}
+.logo:hover{
+    color: rgb(219, 103, 167);
+}
+.word{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 8vh;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.boxone{
+    display: flex;
+    width: 100%;
+}
+.target{
+    border: 2px solid gray;
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    display: flex;
+}
+.target.over{
+    border: 2px  #FFC8C8;
+    background-color: rgba(247, 155, 228, 0.101);
+}
+#target1{
+    height: 30%;
+    width: 100%;
+    min-height: 90px;
+    display: inline-block;
+}
+#target2,#target3,#target4,#target5,#target6,#target7,#target8{
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 20px;
+    height: 95vh;
+}
+#target2.over{
+    border: 2px  #FFC8C8;
+    background-color: rgba(255, 16, 16, 0.626);
+    color: white;
+}
+.box{
+    width: 7.3vw;
+    height: 6vw;
+    /* background: #f9bfbfe2; */
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    border-radius: 5px;
+    
+}
+.container{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    color: #e8a5a5; 
+}
+.foodbox{
+    width: 100%;
+    height: 25px;
+    margin: 2px;
+    border-bottom-style: solid;
+    border-color: #e8a5a5;
+    color: #e8a5a5;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.foodbox1{
+    width: 100%;
+    height: 25px;
+    margin: 2px;
+    border-bottom-style: solid;
+    border-color: #ff0000;
+    color: #ff0000;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/*手機排版 480-768*/
+/* @media screen and (min-width:480px) and (max-width:768px){
+h1{
+    color: rgb(206, 37, 37);
+}
+
+} */
+/*平板排版 768-1200*/
+/* @media screen  and (min-width:768px) and (max-width:1200px){
+h1{
+    color: #ffa;
+}
+} */

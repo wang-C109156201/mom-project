@@ -6,6 +6,39 @@ body{
   margin-right: 8px;
   height: 100%;
 }
+.main-header .header-container{
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+}
+.main-nav{
+  float: right;/*??沒效*/
+  margin: auto;
+  padding: 20px 0px;
+}
+.main-nav a{
+  color: inherit; /* 移除超連結顏色 */
+  text-decoration: none;  /* 移除超連結底線 */
+  transform: translateY(0px);
+  color: white;
+  margin: 15px;
+}
+.main-nav a:hover{
+  color: rgb(100, 196, 237);
+  transform: translateY(-10px);
+}
+.logo{
+  color: inherit; /* 移除超連結顏色 */
+  text-decoration: none;  /* 移除超連結底線 */
+  padding: 10px 0px;
+  color: white;
+}
+.logo:hover{
+  color: rgb(100, 196, 237);
+}
 .word{
   display: flex;
   align-items: center;
@@ -22,7 +55,7 @@ body{
   width: 100%;
 }
 .target{
-  border: 2px dashed gray;
+  border: 2px solid gray;
   margin:10px;
   padding:10px;
   border-radius: 5px;
@@ -43,12 +76,12 @@ body{
   height: 70%;
   display: inline-block;
   margin-bottom: 20px;
-  height: 59vh;
+  height: 53vh;
 }
 .box{
   width: 6.5vw;
   height: 6vw;
-  background: rgb(107, 191, 236);
+  /* background: rgb(107, 191, 236); */
   padding: 5px;
   margin: 5px;
   float: left;
@@ -76,22 +109,6 @@ h1{
   align-items: center;
   justify-content: center; 
 }
-/* .triangle{
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 100px 100px 0 0;
-  border-color: rgb(97, 126, 200) transparent transparent transparent;
-}
-.triangletwo{
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 200px 200px;
-  border-color: transparent transparent rgb(97, 126, 200) transparent;
-  flex-direction: row-reverse;
-  float: right;
-} */
 /*手機排版 480-768*/
 /* @media screen and (min-width:480px) and (max-width:768px){
   h1{
