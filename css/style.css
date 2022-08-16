@@ -27,7 +27,7 @@ body{
   margin: 15px;
 }
 .main-nav a:hover{
-  color: rgb(100, 196, 237);
+  color: rgb(117, 214, 255);
   transform: translateY(-10px);
 }
 .logo{
@@ -37,7 +37,7 @@ body{
   color: white;
 }
 .logo:hover{
-  color: rgb(100, 196, 237);
+  color: rgb(117, 214, 255);
 }
 .word{
   display: flex;
