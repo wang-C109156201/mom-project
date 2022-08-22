@@ -79,8 +79,8 @@ body{
   height: 53vh;
 }
 .box{
-  width: 6.5vw;
-  height: 6vw;
+  width: 5.4vw;
+  height: 5.4vw;
   /* background: rgb(107, 191, 236); */
   padding: 5px;
   margin: 5px;
@@ -88,6 +88,7 @@ body{
   border-radius: 5px;
   
 }
+
 .container{
   background-color: white;
   width: 100%;
