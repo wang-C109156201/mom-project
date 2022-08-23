@@ -79,26 +79,11 @@ body{
     height: 95vh;
     color: rgb(97, 126, 200);
 }
-#target2.over{
-    border: 2px  #FFC8C8;
-    background-color: rgba(255, 16, 16, 0.788);
-    color: white;
-    border-color: white;
-}
-#target3.over{
-    border: 2px  #FFC8C8;
-    background-color: rgba(255, 147, 5, 0.895);
-    color: white;
-}
-#target4.over{
-    border: 2px  #FFC8C8;
-    background-color: rgb(255, 221, 0);
-    color: white;
-}
+
 .box{
     width: 6.3vw;
     height: 5.5vw;
-    padding: 5px;
+    padding: 5.7px;
     /* margin: 5px; */
     float: left;
     border-radius: 5px;
