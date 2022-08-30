@@ -63,8 +63,8 @@ body{
     display: flex;
 }
 .target.over{
-    border: 2px  #FFC8C8;
-    background-color: rgba(247, 155, 228, 0.101);
+    border: 2px solid rgb(97, 126, 200);
+    background-color: rgba(107, 191, 236, 0.101);
 }
 #target1{
     height: 30%;
@@ -72,7 +72,7 @@ body{
     min-height: 90px;
     display: inline-block;
 }
-#target2,#target3,#target4,#target5,#target6,#target7,#target8{
+#target2,#target3,#target4,#target5,#target6,#target7{
     width: 25%;
     display: inline-block;
     margin-bottom: 20px;
@@ -107,9 +107,7 @@ h1{
     align-items: center;
     justify-content: center; 
 }
-.foodbox.over{
-    border-color: aquamarine;
-}
+
 /*手機排版 480-768*/
 /* @media screen and (min-width:480px) and (max-width:768px){
 h1{
