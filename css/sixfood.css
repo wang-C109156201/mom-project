@@ -82,13 +82,14 @@ body{
 
 .box{
     width: 6.3vw;
-    height: 5.5vw;
+    height: 5.3vw;
     padding: 5.7px;
     /* margin: 5px; */
     float: left;
     border-radius: 5px;
     
 }
+
 .container{
     background-color: white;
     width: 100%;
