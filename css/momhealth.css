@@ -1,0 +1,171 @@
+[draggable="true"] {
+    cursor: move;
+}
+body{
+    background-color: rgb(97, 126, 200);
+    margin-right: 8px;
+    height: 100%;
+}
+.main-header .header-container{
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+}
+.main-nav{
+    float: right;/*??沒效*/
+    margin: auto;
+    padding: 20px 0px;
+}
+.main-nav a{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    transform: translateY(0px);
+    color: white;
+    margin: 15px;
+}
+.main-nav a:hover{
+    color: rgb(117, 214, 255);
+    transform: translateY(-10px);
+}
+.logo{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    padding: 10px 0px;
+    color: white;
+}
+.logo:hover{
+    color: rgb(117, 214, 255);
+}
+.word{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 8vh;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.boxone{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.boxtwo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.treebox{
+    display: inline-block;
+    flex-direction: column;
+    width: 15%;
+}
+.treeimg{
+    display: flex;
+    height:9vw;
+    align-items: center;
+    justify-content: center; 
+}
+.babyimg{
+    display: flex;
+    height:9vw;
+    align-items: center;
+    justify-content: center; 
+}
+.mudimg{
+    display: flex;
+    width:15%;
+    align-items: center;
+    justify-content: center; 
+}
+.motherimg{
+    display: flex;
+    width:16%;
+    align-items: center;
+    justify-content: center; 
+}
+.babybox{
+    display: inline-block;
+    flex-direction: column;
+    width: 16%;
+}
+.column{
+    width: 100%;
+}
+
+.target{
+    border: 2px solid gray;
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    display: flex;
+}
+.target.over{
+    border: 2px dashed rgb(97, 126, 200);
+    background-color: rgba(107, 191, 236, 0.101);
+}
+
+#target1,#target2,#target3,#target4{
+    /* display: inline-block; */
+    margin-bottom: 20px;
+    height: 15vh;
+    /* min-width: 50vw; */
+}
+#target5{
+    height: 30%;
+    width: 100%;
+    min-height: 90px;
+    display: inline-block;
+    margin-right: 0;
+}
+.box{
+    width: 5.4vw;
+    height: 5.4vw;
+    /* background: rgb(107, 191, 236); */
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    border-radius: 5px;
+}
+  
+.container{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(97, 126, 200); 
+}
+  
+.wordbox{
+    width: 100%;
+    height: 25px;
+    margin: 5px;
+    border-bottom-style: solid;
+    border-color: rgb(97, 126, 200);
+    color: rgb(97, 126, 200);
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/*手機排版 480-768*/
+/* @media screen and (min-width:480px) and (max-width:768px){
+h1{
+    color: rgb(206, 37, 37);
+}
+
+} */
+/*平板排版 768-1200*/
+/* @media screen  and (min-width:768px) and (max-width:1200px){
+h1{
+    color: #ffa;
+}
+} */
