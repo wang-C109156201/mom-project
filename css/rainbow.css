@@ -2,7 +2,7 @@
     cursor: move;
   }
 body{
-    background-color: #e8a5a5;
+    background-color: #dc9d9d;
     margin-right: 8px;
     height: 100%;
 }
@@ -28,7 +28,7 @@ body{
     font-size: larger;
 }
 .main-nav a:hover{
-    color: rgb(219, 103, 167);
+    color: rgb(125, 75, 105);
     transform: translateY(-10px);
 }
 .logo{
@@ -39,7 +39,7 @@ body{
     font-size:larger;
 }
 .logo:hover{
-    color: rgb(219, 103, 167);
+    color: rgb(50, 29, 41);
 }
 .word{
     display: flex;
