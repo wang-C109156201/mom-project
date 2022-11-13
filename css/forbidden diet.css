@@ -98,9 +98,9 @@ body{
 }
 .box{
   width: 6.5vw;
-  height: 5.4vw;
+  height: 5.5vw;
   /* background: rgb(107, 191, 236); */
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
   float: left;
   border-radius: 5px; 
@@ -116,6 +116,10 @@ body{
 #box8{
   width: 7.5vw;
   height: 5.4vw;
+}
+#box9{
+  width: 8.4vw;
+  height: 5.5vw;
 }
 .container{
   background-color: white;
@@ -137,6 +141,21 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center; 
+}
+.forbidden-img-one{
+  width: 7vw;
+  height: 4vw;
+  margin: 10px;
+}
+.forbidden-img-two{
+  width: 10vw;
+  height:4vw;
+  margin: 10px;
+}
+.forbidden-box{
+  display: flex;
+  float: left;
+  border: 2px dashed gold;
 }
 /*手機排版 480-768*/
 /* @media screen and (min-width:480px) and (max-width:768px){
