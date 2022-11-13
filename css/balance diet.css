@@ -65,6 +65,7 @@
     border: 2px dashed rgb(97, 126, 200);
     background-color: rgba(107, 191, 236, 0.101);
   }
+
   #target1{
     height: 30%;
     width: 100%;
@@ -77,7 +78,7 @@
     display: inline-block;
     padding-top: 0px;
     padding-bottom: 0px;
-    border: 0ch;/*再調成置中*/
+    /*再調成置中*/
     
   }
   #target6,#target7,#target8,#target9{
@@ -95,7 +96,20 @@
     border-radius: 5px;
     
   }
-  
+  #box2{
+    width: 4vw;
+    height: 5.4vw;
+    padding: 5px;
+    float: left;
+    border-radius: 5px;
+  }
+  #box13,#box14,#box15,#box16{
+    width: 7vw;
+    height: 5.4vw;
+    padding: 5px;
+    float: left;
+    border-radius: 5px;
+  }
   .container{
     background-color: white;
     width: 100%;
