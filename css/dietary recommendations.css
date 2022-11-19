@@ -72,17 +72,9 @@ body{
   border-radius: 5px;
   display: flex;
   float: left;
-  /* flex-direction:column-reverse;
-  min-height: 25%; */
-  /* background-image: url("../img/forbidden\ diet/forbidden.png"); */
-  /* background-position: center;  */
-  /* background-size: 19vh; */
-  /* background-repeat: no-repeat; */
+  
 }
-/* .target-inside.over{
-  border: 2px dashed rgb(97, 126, 200);
-  background-color: rgba(255, 5, 5, 0.5);
-} ???*/
+
 #target1,#target10,#target11,#target12,#target13,#target14{
   width: 95%;
   min-height: 90px;
@@ -113,7 +105,6 @@ body{
 .groupone{
   margin: 5px;
   margin-right: 0px;
-  /* border: 2px saddlebrown solid; */
   display: flex;
   flex-direction: column;
   min-width: 48.5vw;
@@ -121,7 +112,6 @@ body{
 .grouptwo{
   margin: 5px;
   margin-left: 0px;
-  /* border: 2px saddlebrown solid; */
   display: flex;
   flex-direction: column;
   min-width: 48.5vw;
@@ -138,23 +128,10 @@ body{
   display: flex;
   flex-direction: row;
 }
-/* #target3{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  height: 53vh;
-} */
-/* #target10,#target11{
-  width: 100%;
-  height: 9.3vw;
-  display: inline-block;
-  border: 0ch;
-} */
+
 .box{
   width: 4.15vw;
   height: 4vw;
-  /* background: rgb(107, 191, 236); */
   padding: 5px;
   margin: 5px;
   float: left;
@@ -219,22 +196,4 @@ h1{
   align-items: center;
   justify-content: center; 
 }
-/* .forbidden-img-one{
-  width: 7vw;
-  height: 4vw;
-  margin: 10px;
-}
-.forbidden-img-two{
-  width: 10vw;
-  height:4vw;
-  margin: 10px;
 
-}
-.forbidden-box{
-  display: flex;
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  border: 2px dashed gold;
-} */
