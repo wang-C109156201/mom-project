@@ -8,7 +8,7 @@ body{
 }
 .main-header .header-container{
   display: flex;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   align-items: center;
   margin: auto;
   width: 100%;
@@ -91,13 +91,14 @@ body{
 }
 #target2{
   width: 50%;
-  height: 70%;
+  height: 100%;
   display: inline-block;
   margin-bottom: 20px;
   height: 53vh;
 }
 #target3{
   width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;

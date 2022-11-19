@@ -75,7 +75,9 @@
   #target2,#target3,#target4,#target5{
     width: 50%;
     min-height: 90px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 0px;
     padding-bottom: 0px;
     /*再調成置中*/
