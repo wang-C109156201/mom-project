@@ -76,7 +76,7 @@ body{
   height: 100%;
   display: inline-block;
   margin-bottom: 20px;
-  height: 53vh;
+  min-height: 53vh;
 }
 .box{
   width: 5.4vw;
