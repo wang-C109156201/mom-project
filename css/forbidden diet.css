@@ -175,16 +175,3 @@ h1{
   justify-content: center; 
   /* border: 2px dashed gold; */
 }
-/*手機排版 480-768*/
-/* @media screen and (min-width:480px) and (max-width:768px){
-  h1{
-    color: rgb(206, 37, 37);
-  }
-  
-} */
-/*平板排版 768-1200*/
-/* @media screen  and (min-width:768px) and (max-width:1200px){
-  h1{
-    color: #ffa;
-  }
-} */
