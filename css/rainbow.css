@@ -8,38 +8,28 @@ body{
 }
 .main-header .header-container{
     display: flex;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     align-items: center;
     margin: auto;
     width: 100%;
-    padding: 0px;
 }
-.main-nav{
+.menu-list{
     float: right;
     margin: auto;
-    padding: 15px 0px;
+    /* padding: 15px 0px; */
 }
-.main-nav a{
+.menu-list a{
     color: inherit; /* 移除超連結顏色 */
     text-decoration: none;  /* 移除超連結底線 */
     transform: translateY(0px);
     color: white;
     margin: 15px;
 }
-.main-nav a:hover{
+.menu-list a:hover{
     color: rgb(125, 75, 105);
     transform: translateY(-10px);
 }
-.logo{
-    color: inherit; /* 移除超連結顏色 */
-    text-decoration: none;  /* 移除超連結底線 */
-    padding: 10px 0px;
-    color: white;
-    font-size:larger;
-}
-.logo:hover{
-    color: rgb(50, 29, 41);
-}
+
 .word{
     display: flex;
     align-items: center;
@@ -130,6 +120,7 @@ body{
     background-color: white;
     width: 100%;
     border-radius: 10px;
+    margin-top: 50px;
 }
 h1{
     color: #e8a5a5; 
@@ -144,6 +135,106 @@ h1{
     align-items: center;
     justify-content: center; 
 }
+
+/*
+選單線
+*/
+.line {
+    width: 24px;
+    height: 30px;
+    background: rgba(97, 126, 200, 0);
+    cursor: pointer;
+    display: block;
+    padding: 18px;
+    position: fixed;
+    z-index: 2;
+  }
+  .line .menu,
+  .line .menu::before,
+  .line .menu::after {
+    background: rgb(255, 255, 255);
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+    width: 22px;
+  }
+  .line .menu {
+    left: 18px;
+    top: 27px;
+  }
+  
+  .line .menu::before {
+    top: -6px;
+  }
+  
+  .line .menu::after {
+    top: 6px;
+  }
+  /*
+  點選選單變叉叉
+  */
+  #menu:checked + .line .menu {
+    background: transparent;
+    
+  }
+  
+  #menu:checked + .line .menu::before {
+    transform: rotate(45deg);
+    background-color: none;
+  }
+  
+  #menu:checked + .line .menu::after {
+    transform: rotate(-45deg);
+  }
+  
+  #menu:checked + .line .menu::before,
+  #menu:checked + .line .menu::after {
+    top: 0;
+    transition: top ease .3s, transform ease .3s .3s;
+    
+  }
+  
+  /*
+  選單開合
+  */
+  #menu:checked ~ .menu-list {
+    width: 270px;
+    height: 100%;
+  }
+  
+  .menu-list {
+    width: 60px;
+    height: 0%;
+    background: #b07e7e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    padding-top:0px;
+    position: fixed;
+    z-index: 1;
+    transition: all .6s;
+    overflow: hidden;
+  }
+  /*
+  選單向外推
+  */
+  .menu-list ul {
+    list-style: none;
+    margin-left:50px;
+    margin-top: 50px;
+    padding: 0;
+  }
+  .menu-list ul>li{
+    display:block;
+    width:180px;
+    line-height: 50px;
+  }
+  /*
+  隱藏核許框
+  */
+  input#menu {
+    display: none;
+  }
 
 /*手機排版 480-768*/
 /* @media screen and (min-width:480px) and (max-width:768px){

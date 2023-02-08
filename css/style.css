@@ -17,7 +17,6 @@ body{
   float: right;/*??沒效*/
   margin: auto;
   /* padding: 20px 0px; */
-  background-color: aqua;
 }
 .menu-list a{
   color: inherit; /* 移除超連結顏色 */
