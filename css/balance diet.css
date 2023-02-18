@@ -186,9 +186,7 @@ h1{
   
 }
 
-/*
-選單開合
-*/
+/*選單開合*/
 #menu:checked ~ .menu-list {
   width: 270px;
   height: 100%;
@@ -205,9 +203,7 @@ h1{
   transition: all .6s;
   overflow: hidden;
 }
-/*
-選單向外推
-*/
+/*選單向外推*/
 .menu-list ul {
   list-style: none;
   margin-left:50px;
@@ -219,9 +215,7 @@ h1{
   width:180px;
   line-height: 50px;
 }
-/*
-隱藏核許框
-*/
+/*隱藏核許框*/
 input#menu {
   display: none;
 }

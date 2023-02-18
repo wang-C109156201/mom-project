@@ -129,10 +129,26 @@ body{
     border-radius: 5px;
 }
 
+#box8{
+    width:5vw;
+    height: 4vw;
+    padding: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
 #box9{
     width:8vw;
     height: 6.4vw;
     padding: 5px;
+    float: left;
+    border-radius: 5px;
+}
+
+#box15{
+    width:5vw;
+    height: 4vw;
+    padding: 20px;
     float: left;
     border-radius: 5px;
 }
