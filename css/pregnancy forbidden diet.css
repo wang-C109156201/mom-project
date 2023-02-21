@@ -66,34 +66,36 @@ body{
 }
 .target-inside{
   border: 2px solid gray;
-  min-height: 17vh;
+  min-height: 13.5vh;
   margin:10px;
-  padding:10px;
+  padding:3px;
   border-radius: 5px;
   display: flex;
   float: left;
   background-image: url("../img/pregnancy\ forbidden\ diet/forbidden.png");
   background-position: center; 
-  background-size: 19vh;
+  background-size: 13.5vh;
   background-repeat: no-repeat;
-  min-width:26%;
+  min-width:27%;
+  max-width: 28%;
 }
 /* .target-inside.over{
   border: 2px dashed rgb(97, 126, 200);
   background-color: rgba(255, 5, 5, 0.5);
 } ???*/
 #target1{
-  height: 30%;
+  /* height: 30%; */
   width: 100%;
   min-height: 90px;
-  display: inline-block;
+  flex-wrap: wrap;
+  float: left;
 }
 #target2{
   width: 50%;
   height: 100%;
   display: inline-block;
   margin-bottom: 20px;
-  min-height: 53vh;
+  min-height: 55vh;
 }
 #target3{
   width: 50%;
@@ -101,26 +103,35 @@ body{
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  min-height: 53vh;
+  min-height: 56vh;
 }
-#target10,#target11{
+#target13,#target14{
   width: 100%;
   height: 9.3vw;
   display: inline-block;
   border: 0ch;
 }
 .box{
-  width: 6.5vw;
+  width: 6.9vw;
   height: 5.5vw;
   /* background: rgb(107, 191, 236); */
-  padding: 10px;
-  margin: 5px;
+  padding: 8px;
+  /* margin: 5px; */
   float: left;
-  border-radius: 5px; 
+  /* border-radius: 5px;  */
+}
+#box2{
+  width: 6vw;
+  height: 3.9vw;
+}
+#box3{
+  width: 7.1vw;
+  height: 5.2vw;
 }
 #box6{
-  width: 5.8vw;
-  height: 5.4vw;
+  width: 11vw;
+  height: 7vw;
+  padding: 5px;
 }
 #box7{
   width: 10vw;
@@ -130,9 +141,13 @@ body{
   width: 7.5vw;
   height: 5.4vw;
 }
-#box9{
-  width: 8.4vw;
+#box10,#box11{
+  width: 8.8vw;
   height: 5.5vw;
+}
+#box12,#box13{
+  width: 9.5vw;
+  height: 4.5vw;
 }
 .container{
   background-color: white;
@@ -174,11 +189,10 @@ h1{
   align-items: center;
   justify-content: center; 
   /* border: 2px dashed gold; */
+  flex-wrap: nowrap;
 }
 
-/*
-選單線
-*/
+/*選單線*/
 .line {
   width: 24px;
   height: 30px;
@@ -212,9 +226,7 @@ h1{
 .line .menu::after {
   top: 6px;
 }
-/*
-點選選單變叉叉
-*/
+/*點選選單變叉叉*/
 #menu:checked + .line .menu {
   background: transparent;
   
@@ -236,9 +248,7 @@ h1{
   
 }
 
-/*
-選單開合
-*/
+/*選單開合*/
 #menu:checked ~ .menu-list {
   width: 270px;
   height: 100%;
@@ -255,9 +265,7 @@ h1{
   transition: all .6s;
   overflow: hidden;
 }
-/*
-選單向外推
-*/
+/*選單向外推*/
 .menu-list ul {
   list-style: none;
   margin-left:50px;
@@ -269,9 +277,7 @@ h1{
   width:180px;
   line-height: 50px;
 }
-/*
-隱藏核許框
-*/
+/*隱藏核許框*/
 input#menu {
   display: none;
 }

@@ -103,7 +103,7 @@ body{
   margin-bottom: 20px;
   min-height: 53vh;
 }
-#target10,#target11{
+#target13,#target14{
   width: 100%;
   height: 9.3vw;
   display: inline-block;
@@ -118,6 +118,7 @@ body{
   float: left;
   border-radius: 5px; 
 }
+
 #box6{
   width: 5.8vw;
   height: 5.4vw;
