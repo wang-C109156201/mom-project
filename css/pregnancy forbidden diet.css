@@ -103,7 +103,7 @@ body{
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  min-height: 56vh;
+  min-height: 57vh;
 }
 #target13,#target14{
   width: 100%;

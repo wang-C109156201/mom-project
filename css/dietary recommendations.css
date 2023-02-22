@@ -54,8 +54,8 @@ body{
 }
 .target{
   border: 2px solid gray;
-  margin:10px;
-  padding:10px;
+  margin:5px;
+  padding:5px;
   border-radius: 5px;
   display: flex;
 }
@@ -83,24 +83,24 @@ body{
   display: inline-block;
   flex-direction: row;
   margin-bottom: 20px;
-  height: 53vh;
+  height: 45vh;
 }
 #target4,#target5{
   width: 20vw;
-  height: 21.5vw; 
+  height: 18vw; 
   display: inline-block;
 }
 #target6,#target7{
   display: flex;
   display: inline-block;
-  width: 10vw;
-  height: 10vw;
+  width: 8vw;
+  height: 7.5vw;
   border-radius: 50%;
 }
 #target8,#target9{
   display: inline-block;
   width: 33vw;
-  height: 9.3vw;
+  height: 7.8vw;
 }
 .groupone{
   margin: 5px;
@@ -135,15 +135,23 @@ body{
   width: 4.15vw;
   height: 4vw;
   padding: 5px;
-  margin: 5px;
+  /* margin: 5px; */
   float: left;
   border-radius: 5px; 
 }
+#box7{
+  width: 3.5vw;
+}
+#box46{
+  width: 3.5vw;
+}
 #box47{
   width: 2vw;
+  margin: 5px;
 }
 #box48{
-  width: 2vw;
+  width: 1.7vw;
+  margin: 5px;
 }
 #box51{
   width: 6vw;
