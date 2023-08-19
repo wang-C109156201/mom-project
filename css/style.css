@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 [draggable="true"] {
   cursor: move;
 }
@@ -6,6 +7,7 @@ body{
   margin-right: 8px;
   height: 150%;
 }
+
 .main-header .header-container{
   display: flex;
   /* max-width: 1200px; */
@@ -40,62 +42,10 @@ body{
   display: flex;
   align-items: center;
   justify-content: center; 
+  flex-direction: column;
 }
-.boxone{
-  display: flex;
-  width: 100%;
-}
-.target{
-  border: 2px solid gray;
-  margin:10px;
-  padding:10px;
-  border-radius: 5px;
-  display: flex;
-}
-.target.over{
-  border: 2px dashed rgb(97, 126, 200);
-  background-color: rgba(107, 191, 236, 0.101);
-}
-#target1{
-  height: 30%;
-  width: 100%;
-  min-height: 100px;
-  display: inline-block;
-}
-#target2,#target3{
-  width: 50%;
-  height: 100%;
-  display: inline-block;
-  margin-bottom: 20px;
-  min-height: 43.3vh;
-}
-.box{
-  width: 5.4vw;
-  height: 5.4vw;
-  padding: 5px;
-  margin: 5px;
-  float: left;  
-}
-
-#box13,#box14,#box15,#box16{
-  width: 7vw;
-  height: 5.4vw;
-  padding: 5px;
-  float: left;
-}
-
-#box17{
-  width: 4vw;
-  height: 5vw;
-  padding: 5px;
-  float: left;
-}
-
-#box18{
-  width: 6vw;
-  height: 3.4vw;
-  padding: 5px;
-  float: left;
+.hidden {
+  display: none;
 }
 
 /*選單線*/
@@ -189,14 +139,37 @@ input#menu {
 }
 
 .container{
-  background-color: white;
   width: 100%;
   border-radius: 10px;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-h1{
-  color: rgb(97, 126, 200); 
+.text1{
+  color: #EDB6C2;
+  font-size: 70px;
+  font-weight: 500; 
+  font-family: 'cwTeXYen', sans-serif;
+  margin: 0;
+}
+.text2{
+  color: #EDB6C2;
+  font-size: 100px;
+  font-weight: 500;
+  font-family: 'cwTeXYen', sans-serif;
+  margin: 3rem;
+}
+.text3 {
+  color: #EDB6C2;
+  font-size: 30px;
+  font-weight: 500; 
+  font-family: 'cwTeXYen', sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 65%; 
+  transform: translateY(-50%); /* 垂直置中 */
 }
 
 .wordbox{
@@ -211,3 +184,4 @@ h1{
   align-items: center;
   justify-content: center; 
 }
+
