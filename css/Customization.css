@@ -1,24 +1,19 @@
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 [draggable="true"] {
   cursor: move;
 }
 body{
   background-color: rgb(97, 126, 200);
-  margin-right: 8px;
-  height: 150%;
+  margin: 0 10px;
+  min-height: 100vh;
 }
-
 .main-header .header-container{
   display: flex;
-  /* max-width: 1200px; */
   align-items: center;
   margin: auto;
   width: 100%;
 }
 .menu-list{
-  float: right;/*??沒效*/
   margin: auto;
-  /* padding: 20px 0px; */
 }
 .menu-list a{
   color: inherit; /* 移除超連結顏色 */
@@ -32,20 +27,56 @@ body{
   transform: translateY(-10px);
 }
 
-.word{
+.word,
+.wrap {
   display: flex;
   align-items: center;
-  justify-content: center; 
-  height: 8vh;
+  justify-content: center;
 }
-.wrap{
+
+.boxone{
   display: flex;
-  align-items: center;
-  justify-content: center; 
-  flex-direction: column;
+  width: 100%;
 }
-.hidden {
-  display: none;
+.target{
+  border: 2px solid gray;
+  margin:10px;
+  border-radius: 5px;
+  display: flex;
+}
+.target.over{
+  border: 2px dashed rgb(97, 126, 200);
+  background-color: rgba(107, 191, 236, 0.101);
+}
+#target1{
+  height: 30%;
+  width: 100%;
+  min-height: 100px;
+  display: inline-block;
+}
+#target2,#target3,#target4{
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.box{
+  width: 5.4vw;
+  height: 5.4vw;
+  padding: 5px;
+  margin: 5px;
+  float: left;  
+}
+
+#box4{
+  width: 6vw;
+  height: 6.5vw;
+}
+
+#box6{
+  width: 7vw;
+  height: 5vw;
+  padding: 5px;
 }
 
 /*選單線*/
@@ -139,49 +170,13 @@ input#menu {
 }
 
 .container{
+  background-color: white;
   width: 100%;
   border-radius: 10px;
-  height: 100%;
-  margin-top: 30vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin:50px 0 20px 0;
+  flex-grow: 1;
+  min-height: calc(100vh - 70px);
 }
-.text1{
-  color: #ffffff;
-  font-size: 70px;
-  font-weight: 500; 
-  font-family: 'cwTeXYen', sans-serif;
-  margin: 0;
+h1{
+  color: rgb(97, 126, 200); 
 }
-.text2{
-  color: #ffffff;
-  font-size: 100px;
-  font-weight: 500;
-  font-family: 'cwTeXYen', sans-serif;
-  margin: 3rem;
-}
-.text3 {
-  color: #EDB6C2;
-  font-size: 30px;
-  font-weight: 500; 
-  font-family: 'cwTeXYen', sans-serif;
-  margin: 0;
-  position: absolute;
-  top: 65%; 
-  transform: translateY(-50%); /* 垂直置中 */
-}
-
-.wordbox{
-  width: 100%;
-  height: 25px;
-  margin: 5px;
-  border-bottom-style: solid;
-  border-color: rgb(97, 126, 200);
-  color: rgb(97, 126, 200);
-  font-size: 17px;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-}
-
