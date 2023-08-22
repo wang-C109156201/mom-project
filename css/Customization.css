@@ -5,6 +5,7 @@ body{
   background-color: rgb(97, 126, 200);
   margin: 0 10px;
   min-height: 100vh;
+  display: flex;
 }
 .main-header .header-container{
   display: flex;
@@ -27,11 +28,17 @@ body{
   transform: translateY(-10px);
 }
 
-.word,
+.word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .wrap {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .boxone{
@@ -40,9 +47,18 @@ body{
 }
 .target{
   border: 2px solid gray;
-  margin:10px;
+  margin: 10px;
   border-radius: 5px;
   display: flex;
+}
+.imgbox{
+  border: 2px solid gray;
+  border-radius: 5px;
+  display: inline-block;
+  width: 31%;
+  height: 90%;
+  flex-grow: 1;
+  margin:10px 5px 10px 10px;
 }
 .target.over{
   border: 2px dashed rgb(97, 126, 200);
@@ -54,11 +70,32 @@ body{
   min-height: 100px;
   display: inline-block;
 }
-#target2,#target3,#target4{
-  width: 40%;
-  height: 100%;
-  display: inline-block;
-  margin-bottom: 20px;
+#target2{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: relative;
+  border: 2px solid gray;
+  top: 24.2vh;
+  right: -9.5vh;
+}
+#target3{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: relative;
+  border: 2px solid gray;
+  top: 24.2vh;
+  right: -4.5vh;
+}
+#target4{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: relative;
+  border: 2px solid gray;
+  top: 24.2vh;
+  right: -19.5vh;
 }
 .box{
   width: 5.4vw;
@@ -67,7 +104,18 @@ body{
   margin: 5px;
   float: left;  
 }
-
+#box1{
+  min-width: 35vh;
+  min-height: 30vh;
+}
+#box2{
+  min-width: 40vh;
+  min-height: 25vh;
+}
+#box3{
+  min-width: 25vh;
+  min-height: 40vh;
+}
 #box4{
   width: 6vw;
   height: 6.5vw;
@@ -173,9 +221,11 @@ input#menu {
   background-color: white;
   width: 100%;
   border-radius: 10px;
-  margin:50px 0 20px 0;
+  margin:60px 0 50px 0;
   flex-grow: 1;
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
 }
 h1{
   color: rgb(97, 126, 200); 
