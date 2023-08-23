@@ -24,7 +24,7 @@ body{
   text-decoration: none;  /* 移除超連結底線 */
   transform: translateY(0px);
   color: white;
-  margin: 15px;
+  margin: 8px;
 }
 .menu-list a:hover{
   color: rgb(117, 214, 255);
@@ -148,7 +148,7 @@ h1{
   height: 2px;
   position: absolute;
   transition: background ease .3s, top ease .3s .3s, transform ease .3s;
-  width: 22px;
+  width: 25px;
 }
 .line .menu {
   left: 18px;
@@ -193,7 +193,7 @@ h1{
 }
 
 .menu-list {
-  width: 60px;
+  width: 80px;
   height: 0%;
   background: rgb(40, 49, 123);
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
@@ -206,13 +206,13 @@ h1{
 /*選單向外推*/
 .menu-list ul {
   list-style: none;
-  margin-left:50px;
+  margin-left:30px;
   margin-top: 50px;
   padding: 0;
 }
 .menu-list ul>li{
   display:block;
-  width:180px;
+  width:205px;
   line-height: 50px;
 }
 /*隱藏核許框*/
