@@ -96,9 +96,16 @@ body{
   float: left;
   border-radius: 5px;
 }
-#box13,#box14,#box15,#box16{
+#box13,#box14,#box15,#box16,#box8,#box17{
   width: 7vw;
   height: 5.4vw;
+  padding: 5px;
+  float: left;
+  border-radius: 5px;
+}
+#box19{
+  width:8vw;
+  height: 6vw;
   padding: 5px;
   float: left;
   border-radius: 5px;
