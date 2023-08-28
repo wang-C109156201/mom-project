@@ -121,7 +121,7 @@ body{
   border-radius: 5px; 
 }
 
-#box4{
+#box4,#box17{
   width: 6.2vw;
   height: 5.7vw;
 }
@@ -147,6 +147,14 @@ body{
 }
 #box12,#box13{
   width: 9.5vw;
+  height: 4.5vw;
+}
+#box14,#box16{
+  width: 7.5vw;
+  height: 6vw;
+}
+#box15{
+  width: 6vw;
   height: 4.5vw;
 }
 .container{

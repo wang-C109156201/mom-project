@@ -128,6 +128,7 @@ body{
 .groupbig{
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .box{
@@ -307,7 +308,7 @@ h1{
 input#menu {
   display: none;
 }
-/*1440還要再修*/
+/*900-1440還要再修*/
 @media screen and  (min-width: 900px) {
   #target4,#target5{
     min-width: 23vw;
