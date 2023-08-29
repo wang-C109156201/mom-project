@@ -50,7 +50,7 @@ body{
 }
 .boxone{
   display: flex;
-  width: 100%;
+  margin: 15px;
 }
 .target{
   border: 2px solid gray;
@@ -73,59 +73,59 @@ body{
 }
 
 #target1,#target10,#target11,#target12,#target13,#target14{
-  width: 95%;
   min-height: 90px;
   display: inline-block;
 }
 #target2{
   width: 100%;
-  display: inline-block;
-  flex-direction: row;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
   height: auto;
 }
 #target4,#target5{
-  min-width: 20vw;
-  height: 18vw; 
-  display: inline-block;
+  display: inline-flex;
+  width: 100%;
 }
 #target6,#target7{
   display: inline-block;
-  min-width: 9vw;
   height: 7.5vw;
   border-radius: 50%;
 }
 #target8,#target9{
-  display: inline-block;
-  min-width: 23vw;
+  display: inline-flex;
   height: 7.8vw;
 }
 .groupone{
-  margin: 5px;
-  margin-right: 0px;
-  margin-top: -5px;
   display: flex;
   flex-direction: column;
-  min-width: 48.5vw;
+  width: 50%;
 }
 .grouptwo{
-  margin: 5px;
-  margin-left: 0px;
-  margin-top: -5px;
   display: flex;
   flex-direction: column;
-  min-width: 48.5vw;
+  width: 50%;
 }
+
 .column{
   display: flex;
   flex-direction: column;
-  min-width: 5vh;
+  width: 20%;
+  margin: 5px;
+}
+.column2{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 5px;
 }
 .group{
   display: flex;
-  flex-direction: row;
+  width: 40%;
+  margin: 5px;
 }
 .groupbig{
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -207,7 +207,6 @@ h1{
   align-items: center;
   justify-content: center; 
 }
-
 
 /*
 選單線
@@ -307,28 +306,4 @@ h1{
 */
 input#menu {
   display: none;
-}
-/*900-1440還要再修*/
-@media screen and  (min-width: 900px) {
-  #target4,#target5{
-    min-width: 23vw;
-    height: 18vw; 
-    display: inline-block;
-  }
-  #target6,#target7{
-    display: inline-block;
-    min-width: 11vw;
-    height: 7.5vw;
-    border-radius: 50%;
-  }
-  #target8,#target9{
-    display: inline-block;
-    min-width: 25vw;
-    height: 7.8vw;
-  }
-  .column{
-    display: flex;
-    flex-direction: column;
-    min-width: 25vh;
-  }
 }
