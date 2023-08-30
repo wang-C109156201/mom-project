@@ -43,7 +43,7 @@ body{
 }
 .boxone{
     display: flex;
-    width: 100%;
+    /*width: 100%*/;
     align-items: center;
     justify-content: center;
     
@@ -55,43 +55,29 @@ body{
     justify-content: center;
     
 }
-.treebox{
-    display: inline-block;
-    flex-direction: column;
-    width: 17%;
-}
-.treeimg{
+.Lastimgbox{
     display: flex;
-    height:9vw;
+    flex-direction: column;
     align-items: center;
     justify-content: center; 
+    width: 15%;
 }
-.babyimg{
+.Lastimg{
     display: flex;
-    height:9vw;
+    height:15vw;
+    width: 100%;
+}
+.mud{
+    display: flex;
+    width:20%;
     align-items: center;
     justify-content: center; 
 }
 .mudimg{
-    display: flex;
-    width:15%;
-    align-items: center;
-    justify-content: center; 
-}
-.motherimg{
-    display: flex;
-    width:15%;
-    align-items: center;
-    justify-content: center; 
-    margin-right: 20px;
-}
-.babybox{
-    display: inline-block;
-    flex-direction: column;
-    width: 17%;
+    width: 100%;
 }
 .column{
-    width: 100%;
+    width: 55%;
 }
 
 .target{
@@ -116,10 +102,11 @@ body{
 #target5{
     border: 2px solid gray;
     height: 30%;
-    width: 97%;
+   
     min-height: 90px;
-    display: inline-block;
+    display: inline-flex;
     margin-right: 10px;
+    flex-wrap: wrap;
 }
 .box{
     width: 6.5vw;
@@ -129,10 +116,9 @@ body{
     border-radius: 5px;
 }
 
-#box8{
-    width:5vw;
+#box8,#box15{
+    width:6.5vw;
     height: 4vw;
-    padding: 20px;
     float: left;
     border-radius: 5px;
 }
@@ -141,14 +127,6 @@ body{
     width:8vw;
     height: 6.4vw;
     padding: 5px;
-    float: left;
-    border-radius: 5px;
-}
-
-#box15{
-    width:5vw;
-    height: 4vw;
-    padding: 20px;
     float: left;
     border-radius: 5px;
 }
@@ -184,19 +162,19 @@ h1{
 
 }
 .slash-up{
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-image: linear-gradient(-45deg, transparent 49%, rgb(239, 171, 182) 49%, rgb(239, 171, 182) 51%, transparent 51%, transparent); /* 向上的對角線 */
     
 }
 .slash-down{
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-image: linear-gradient(45deg, transparent 49%, rgb(239, 171, 182) 49%, rgb(239, 171, 182) 51%, transparent 51%, transparent); /* 向下的對角線 */
     
 }
 .slashbox{
-    width: 150px;
+    width: 10%;
     height: 150px;
     display: flex;
     align-items: center;
