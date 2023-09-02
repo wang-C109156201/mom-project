@@ -52,13 +52,13 @@ body{
   display: flex;
 }
 .imgbox{
-  border: 2px solid gray;
-  border-radius: 5px;
-  display: inline-block;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
   width: 31%;
-  height: 90%;
-  flex-grow: 1;
+  height: 100%;
   margin:10px 5px 10px 10px;
+  align-items: center;
 }
 .target.over{
   border: 2px dashed rgb(97, 126, 200);
@@ -70,32 +70,12 @@ body{
   min-height: 100px;
   display: inline-block;
 }
-#target2{
-  width: 150px;
-  height: 150px;
+#target2,#target3,#target4{
+  min-height: 20vh;
+  width: 100%;
   display: flex;
-  position: relative;
   border: 2px solid gray;
-  top: 24.2vh;
-  right: -9.5vh;
-}
-#target3{
-  width: 150px;
-  height: 150px;
-  display: flex;
-  position: relative;
-  border: 2px solid gray;
-  top: 24.2vh;
-  right: -4.5vh;
-}
-#target4{
-  width: 150px;
-  height: 150px;
-  display: flex;
-  position: relative;
-  border: 2px solid gray;
-  top: 24.2vh;
-  right: -19.5vh;
+  margin: 15px;
 }
 .box{
   width: 5.4vw;
