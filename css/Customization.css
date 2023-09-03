@@ -77,6 +77,10 @@ body{
   border: 2px solid gray;
   margin: 15px;
 }
+#target2.over,#target3.over,#target4.over{
+  border: 2px dashed rgb(97, 126, 200);
+  background-color: rgba(107, 191, 236, 0.101);
+}
 .box{
   width: 5.4vw;
   height: 5.4vw;
