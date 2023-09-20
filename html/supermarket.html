@@ -1,132 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUPERMARKET</title>
-    <link rel="stylesheet" href="../css/supermarket.css">
-    <script src="../js/jquery.min.js"></script>
-    <script type="module" src="../js/index.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUPERMARKET</title>
+  <link rel="stylesheet" href="../css/supermarket.css">
+  <script src="../js/jquery.min.js"></script>
+  <script type="module" src="../js/index.js"></script>
 </head>
+
 <body>
-    <header class="main-header">
-      <div class="header-container">
-        <nav class="nav-box">
-          <input type="checkbox" id="menu">
-          <label for="menu" class="line">
-             <div class="menu"></div>
-          </label>
-          <div class="menu-list">
-            <ul>
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="./momhealth.html">媽咪的營養=寶寶的健康</a></li>
-              <li><a href="./Customization.html">客製化ㄋㄟㄋㄟ</a></li>
-              <li><a href="./rainbow.html">彩虹般的食物</a>
-              <li><a href="./choosefood.html">原型食物/加工食物</a></li>
-              <li><a href="./balance diet.html">全食物/非全食物</a></li>
-              <li><a href="./balance diet copy.html">高油炸食物/高糖食物</a></li>
-              <li><a href="./pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
-              <li><a href="./breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
-              <li><a href="./sixfood.html">均衡飲食六大類食物</a></li>
-              <li><a href="./supermarket.html">SUPERMARKET</a></li>
-              <li><a href="./dietary recommendations.html">一天均衡飲食的量</a></li>
-              <li><a href="./grade.html">成績排行</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <div class="container">
-      <div class="word">
-        <!-- <div class="triangle" id="triangle1"></div> -->
-        <h1>— SUPERMARKET —</h1> 
-      </div>
-      <div class="boxone">
-        <div class="target d-flex" id="target1">
-            <div class="flex">
-                <div class="store">1</div>
-                <div class="store">2</div>
-                <div class="store">3</div>
-                <div class="store">4</div>
-                <div class="store">5</div>
-                <div class="store">6</div>
-            </div>
-            <div><img src="../img/supermarket/資產 77.png" alt=""></div>
-            <div><img src="../img/supermarket/資產 79.png" alt=""></div>
-            <div><img src="../img/supermarket/資產 83.png" alt=""></div>
-            <div><img src="../img/supermarket/資產 84.png" alt=""></div>
-            <div><img src="../img/supermarket/資產 85.png" alt=""></div>
-            <div><img src="../img/supermarket/資產 86.png" alt=""></div>
-          <div><img src="../img/supermarket/143-01.psd.png" alt="avocado" class="box" id="box1" draggable="true"></div>
-          <div><img src="../img/supermarket/2008120025_Pic.psd.png" alt="baby corn" class="box" id="box2" draggable="true"></div>
-          <div><img src="../img/supermarket/6af993c166f64d53a3949d8ba03033de.psd.png" alt="banana.png" class="box" id="box3" draggable="true"></div>
-          <div><img src="../img/supermarket/AdobeStock_308850377--1-.psd.png" alt="black bean" class="box" id="box4" draggable="true"></div>
-          <div><img src="../img/supermarket/Xktc6S.tif.png" alt="barley" class="box" id="box5" draggable="true"></div>
-          <div><img src="../img/supermarket/一包菸.psd.png" alt="brown rice" class="box" id="box6" draggable="true"></div>
-          <div><img src="../img/supermarket/一包貢丸.psd.png" alt="broccoli" class="box" id="box7" draggable="true"></div>
-          <div><img src="../img/supermarket/一包起司片.psd.png" alt="Cabbage" class="box" id="box8" draggable="true"></div>
-          <div><img src="../img/supermarket/一包黃豆.psd.png" alt="Burdock" class="box" id="box9" draggable="true"></div>
-          <div><img src="../img/supermarket/一條芋頭.psd.png" alt="corn" class="box" id="box10" draggable="true"></div>
-          <div><img src="../img/supermarket/一罐開心果.psd.png" alt="grape" class="box" id="box11" draggable="true"></div>
-          <div><img src="../img/supermarket/一顆南瓜.psd.png" alt="carrot." class="box" id="box12" draggable="true"></div>
-          <div><img src="../img/supermarket/一顆番茄.psd.png" alt="cheese" class="box" id="box13" draggable="true"></div>
-          <div><img src="../img/supermarket/來一客泡麵.psd.png" alt="chestnut" class="box" id="box14" draggable="true"></div>
-          <div><img src="../img/supermarket/奶粉.psd.png" alt="cucumber" class="box" id="box15" draggable="true"></div>
-          <div><img src="../img/supermarket/孔雀蛤.psd.png" alt="egg" class="box" id="box16" draggable="true"></div>
-          <div><img src="../img/supermarket/山藥.psd.png" alt="gava" class="box" id="box17" draggable="true"></div>
-          <div><img src="../img/supermarket/整串香蕉.psd.png" alt="Enoki" class="box" id="box18" draggable="true"></div>
-          <div><img src="../img/supermarket/整顆梨子.psd.png" alt="lotus plumule" class="box" id="box19" draggable="true"></div>
-          <div><img src="../img/supermarket/整顆芭樂.psd.png" alt="milk" class="box" id="box20" draggable="true"></div>
-          <div><img src="../img/supermarket/有機豆腐.psd.png" alt="orange" class="box" id="box21" draggable="true"></div>
-          <div><img src="../img/supermarket/橄欖油.psd.png" alt="mushroom" class="box" id="box22" draggable="true"></div>
-          <div><img src="../img/supermarket/橘子.psd.png" alt="nut" class="box" id="box23" draggable="true"></div>
-          <div><img src="../img/supermarket/玉米.psd.png" alt="potato" class="box" id="box24" draggable="true"></div>
-          <div><img src="../img/supermarket/瑪德蓮.psd.png" alt="pumpkin" class="box" id="box25" draggable="true"></div>
-          <div><img src="../img/supermarket/瓶裝咖啡.psd.png" alt="pistachio" class="box" id="box26" draggable="true"></div>
-          <div><img src="../img/supermarket/甜圈圈.psd.png" alt="pork" class="box" id="box27" draggable="true"></div>
-          <div><img src="../img/supermarket/生蝦.psd.png" alt="soy" class="box" id="box28" draggable="true"></div>
-          <div><img src="../img/supermarket/生魚片.psd.png" alt="shrimp" class="box" id="box29" draggable="true"></div>
-          <div><img src="../img/supermarket/空心菜.psd.png" alt="" class="box" id="box30" draggable="true"></div>
-          <div><img src="../img/supermarket/米酒.psd.png" alt="Taro" class="box" id="box31" draggable="true"></div>   
-          <div><img src="../img/supermarket/紅豆.psd.png" alt="eggplant" class="box" id="box32" draggable="true"></div> 
-          <div><img src="../img/supermarket/苦瓜.psd.png" alt="water chestnut" class="box" id="box32" draggable="true"></div> 
-          <div><img src="../img/supermarket/茄子.psd.png" alt="yam" class="box" id="box32" draggable="true"></div> 
-          <div><img src="../img/supermarket/葡萄.psd.png" alt="tomato" class="box" id="box33" draggable="true"></div> 
-          <div><img src="../img/supermarket/蘿蔔.psd.png" alt="海帶結" class="box" id="box34" draggable="true"></div> 
-          <div><img src="../img/supermarket/蛋糕.psd.png" alt="豆薯" class="box" id="box36" draggable="true"></div>
-          <div><img src="../img/supermarket/螃蟹.psd.png" alt="荸薺" class="box" id="box37" draggable="true"></div>
-          <div><img src="../img/supermarket/豆腐乳.psd.png" alt="鮭魚" class="box" id="box38" draggable="true"></div>
-          <div><img src="../img/supermarket/豬肉.psd.png" alt="花生" class="box" id="box39" draggable="true"></div>           
-          <div><img src="../img/supermarket/資產 16.png" alt="bean" class="box" id="box40" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 17.png" alt="yogurt" class="box" id="box41" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 18.png" alt="oil" class="box" id="box42" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 22.png" alt="lotus root" class="box" id="box43" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 25.png" alt="noodle.png" class="box" id="box44" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 26.png" alt="noodle.png" class="box" id="box45" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 33.png" alt="noodle.png" class="box" id="box46" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 34.png" alt="noodle.png" class="box" id="box47" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 38.png" alt="noodle.png" class="box" id="box48" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 39.png" alt="noodle.png" class="box" id="box49" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 42.png" alt="noodle.png" class="box" id="box50" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 43.png" alt="noodle.png" class="box" id="box51" draggable="true"></div>
-          <div><img src="../img/supermarket/資產 55.png" alt="noodle.png" class="box" id="box52" draggable="true"></div>  
-          <div><img src="../img/supermarket/資產 74.png" alt="noodle.png" class="box" id="box53" draggable="true"></div>
-          <div><img src="../img/supermarket/雞肉.psd.png" alt="noodle.png" class="box" id="box54" draggable="true"></div>
-          <div><img src="../img/supermarket/鮮奶.psd.png" alt="noodle.png" class="box" id="box55" draggable="true"></div>
-          <div><img src="../img/supermarket/鯊魚切片.psd.png" alt="noodle.png" class="box" id="box56" draggable="true"></div>
-          <div><img src="../img/supermarket/黑糙米.psd.png" alt="noodle.png" class="box" id="box57" draggable="true"></div>
-          <div><img src="../img/supermarket/黑豆.psd.png" alt="noodle.png" class="box" id="box58" draggable="true"></div>
+  <header class="main-header">
+    <div class="header-container">
+      <nav class="nav-box">
+        <input type="checkbox" id="menu">
+        <label for="menu" class="line">
+          <div class="menu"></div>
+        </label>
+        <div class="menu-list">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./momhealth.html">媽咪的營養=寶寶的健康</a></li>
+            <li><a href="./Customization.html">客製化ㄋㄟㄋㄟ</a></li>
+            <li><a href="./rainbow.html">彩虹般的食物</a>
+            <li><a href="./choosefood.html">原型食物/加工食物</a></li>
+            <li><a href="./balance diet.html">全食物/非全食物</a></li>
+            <li><a href="./balance diet copy.html">高油炸食物/高糖食物</a></li>
+            <li><a href="./pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
+            <li><a href="./breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
+            <li><a href="./sixfood.html">均衡飲食六大類食物</a></li>
+            <li><a href="./supermarket.html">SUPERMARKET</a></li>
+            <li><a href="./dietary recommendations.html">一天均衡飲食的量</a></li>
+            <li><a href="./grade.html">成績排行</a></li>
+          </ul>
         </div>
-      </div>
-      <div class="wrap" id="height">
-        <div class="target d-flex " id="target2"><div class="foodbox">全榖雜糧類</div></div>
-        <div class="target d-flex " id="target3"><div class="foodbox">蔬菜類</div></div>
-        <div class="target d-flex " id="target4"><div class="foodbox">水果類</div></div>
-        <div class="target d-flex " id="target5"><div class="foodbox">豆魚蛋肉類</div></div>
-        <div class="target d-flex " id="target6"><div class="foodbox">乳品類</div></div>
-        <div class="target d-flex " id="target7"><div class="foodbox">油脂與堅果種子類</div></div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="word">
+      <!-- <div class="triangle" id="triangle1"></div> -->
+      <h1>— SUPERMARKET —</h1>
+    </div>
+    <div class="boxone">
+      <div class="target d-flex" id="target1">
+        <div class="flex">
+
+          <!-- 肉店 -->
+          <div class="store">
+            <div class="img">
+              <img src="../img/supermarket/資產 77.png" alt="">
+            </div>
+            <div class="storebox">
+              <div><img src="../img/supermarket/豬肉.psd.png" alt="豬肉" class="box" id="box39" draggable="true"></div>
+              <div><img src="../img/supermarket/雞肉.psd.png" alt="noodle.png" class="box" id="box54" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 38.png" alt="noodle.png" class="box" id="box48" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 39.png" alt="noodle.png" class="box" id="box49" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 42.png" alt="noodle.png" class="box" id="box50" draggable="true"></div>
+            </div>
+          </div>
+          <!-- 蔬菜店 -->
+          <div class="store">
+            <div class="img">
+              <img src="../img/supermarket/資產 79.png" alt="">
+            </div>
+            <div class="storebox">
+              <img src="../img/supermarket/香菇.png" alt="banana.png" class="box" id="box3" draggable="true">
+              <img src="../img/supermarket/玉米筍.png" alt="black bean" class="box" id="box4" draggable="true">
+              <div><img src="../img/supermarket/一條芋頭.psd.png" alt="corn" class="box" id="box10" draggable="true"></div>
+              <div><img src="../img/supermarket/一顆南瓜.psd.png" alt="carrot." class="box" id="box12" draggable="true"></div>
+              <div><img src="../img/supermarket/一顆番茄.psd.png" alt="cheese" class="box" id="box13" draggable="true"></div>
+              <div><img src="../img/supermarket/山藥.psd.png" alt="gava" class="box" id="box17" draggable="true"></div>
+              
+              <div><img src="../img/supermarket/玉米.psd.png" alt="potato" class="box" id="box24" draggable="true"></div>
+              <div><img src="../img/supermarket/空心菜.psd.png" alt="" class="box" id="box30" draggable="true"></div>
+              
+              <div><img src="../img/supermarket/苦瓜.psd.png" alt="water chestnut" class="box" id="box32" draggable="true"></div>
+              <div><img src="../img/supermarket/茄子.psd.png" alt="yam" class="box" id="box32" draggable="true"></div>
+              <div><img src="../img/supermarket/蘿蔔.psd.png" alt="海帶結" class="box" id="box34" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 43.png" alt="noodle.png" class="box" id="box51" draggable="true"></div>
+            </div>
+          </div>
+          <!-- 飲料店 -->
+          <div class="store">
+            <div class="img">
+              <img src="../img/supermarket/資產 83.png" alt="">
+            </div>
+            <div class="storebox">
+              <div><img src="../img/supermarket/資產 17.png" alt="yogurt" class="box" id="box41" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 18.png" alt="oil" class="box" id="box42" draggable="true"></div>
+
+            </div>
+          </div>
+          <!-- 海鮮店 -->
+          <div class="store">
+            <div class="img">
+              <img src="../img/supermarket/資產 16.png" alt="">
+            </div>
+            <div class="storebox">
+              <div><img src="../img/supermarket/孔雀蛤.psd.png" alt="egg" class="box" id="box16" draggable="true"></div>
+              <div><img src="../img/supermarket/生蝦.psd.png" alt="soy" class="box" id="box28" draggable="true"></div>
+              <div><img src="../img/supermarket/生魚片.psd.png" alt="shrimp" class="box" id="box29" draggable="true"></div>
+              <div><img src="../img/supermarket/螃蟹.psd.png" alt="荸薺" class="box" id="box37" draggable="true"></div>
+              <div><img src="../img/supermarket/鯊魚切片.psd.png" alt="noodle.png" class="box" id="box56" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 22.png" alt="lotus root" class="box" id="box43" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 25.png" alt="noodle.png" class="box" id="box44" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 26.png" alt="noodle.png" class="box" id="box45" draggable="true"></div>
+            </div>
+          </div>
+          <!-- 水果店 -->
+          <div class="store">
+            <div class="img">
+              <img src="../img/supermarket/資產 85.png" alt="">
+            </div>
+            <div class="storebox">
+              <div><img src="../img/supermarket/整串香蕉.psd.png" alt="Enoki" class="box" id="box18" draggable="true"></div>
+              <div><img src="../img/supermarket/整顆梨子.psd.png" alt="lotus plumule" class="box" id="box19" draggable="true"></div>
+              <div><img src="../img/supermarket/整顆芭樂.psd.png" alt="milk" class="box" id="box20" draggable="true"></div>
+              <div><img src="../img/supermarket/橘子.psd.png" alt="nut" class="box" id="box23" draggable="true"></div>
+              <div><img src="../img/supermarket/葡萄.psd.png" alt="tomato" class="box" id="box33" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 33.png" alt="noodle.png" class="box" id="box46" draggable="true"></div>
+              <div><img src="../img/supermarket/資產 34.png" alt="noodle.png" class="box" id="box47" draggable="true"></div>
+            </div>
+          </div>
+          <!-- 蛋糕店 -->
+          <div class="store">
+            <div class="img">
+              <img src="../img/supermarket/資產 86.png" alt="">
+            </div>
+            <div class="storebox">
+              <div><img src="../img/supermarket/甜圈圈.psd.png" alt="pork" class="box" id="box27" draggable="true"></div>
+              <div><img src="../img/supermarket/蛋糕.psd.png" alt="豆薯" class="box" id="box36" draggable="true"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 不確定的 -->
+        <div>
+          <img src="../img/supermarket/商店.png" alt="">
+        </div>
+        <img src="../img/supermarket/優若乳.png" alt="baby corn" class="box" id="box2" draggable="true">
+        <div><img src="../img/supermarket/Xktc6S.tif.png" alt="barley" class="box" id="box5" draggable="true"></div>
+        <div><img src="../img/supermarket/一包菸.psd.png" alt="brown rice" class="box" id="box6" draggable="true"></div>
+        <div><img src="../img/supermarket/一包貢丸.psd.png" alt="broccoli" class="box" id="box7" draggable="true"></div>
+        <div><img src="../img/supermarket/一包起司片.psd.png" alt="Cabbage" class="box" id="box8" draggable="true"></div>
+        <div><img src="../img/supermarket/一包黃豆.psd.png" alt="Burdock" class="box" id="box9" draggable="true"></div>
+        <div><img src="../img/supermarket/一罐開心果.psd.png" alt="grape" class="box" id="box11" draggable="true"></div>
+        <div><img src="../img/supermarket/來一客泡麵.psd.png" alt="chestnut" class="box" id="box14" draggable="true"></div>
+        <div><img src="../img/supermarket/奶粉.psd.png" alt="cucumber" class="box" id="box15" draggable="true"></div>    
+        <div><img src="../img/supermarket/橄欖油.psd.png" alt="mushroom" class="box" id="box22" draggable="true"></div>
+        <div><img src="../img/supermarket/瑪德蓮.psd.png" alt="pumpkin" class="box" id="box25" draggable="true"></div>
+        <div><img src="../img/supermarket/瓶裝咖啡.psd.png" alt="pistachio" class="box" id="box26" draggable="true"></div>              
+        <div><img src="../img/supermarket/米酒.psd.png" alt="Taro" class="box" id="box31" draggable="true"></div>
+        <div><img src="../img/supermarket/紅豆.psd.png" alt="eggplant" class="box" id="box32" draggable="true"></div>
+        <div><img src="../img/supermarket/豆腐乳.psd.png" alt="鮭魚" class="box" id="box38" draggable="true"></div>
+        <div><img src="../img/supermarket/資產 55.png" alt="noodle.png" class="box" id="box52" draggable="true"></div>
+        <div><img src="../img/supermarket/資產 74.png" alt="noodle.png" class="box" id="box53" draggable="true"></div>
+        <div><img src="../img/supermarket/有機豆腐.psd.png" alt="orange" class="box" id="box21" draggable="true"></div>
+        <div><img src="../img/supermarket/鮮奶.psd.png" alt="noodle.png" class="box" id="box55" draggable="true"></div>
+        <div><img src="../img/supermarket/黑糙米.psd.png" alt="noodle.png" class="box" id="box57" draggable="true"></div>
+        <div><img src="../img/supermarket/黑豆.psd.png" alt="noodle.png" class="box" id="box58" draggable="true"></div>
       </div>
     </div>
+    <div class="wrap" id="height">
+      <div class="target d-flex " id="target2">
+        <div class="foodbox">全榖雜糧類</div>
+      </div>
+      <div class="target d-flex " id="target3">
+        <div class="foodbox">蔬菜類</div>
+      </div>
+      <div class="target d-flex " id="target4">
+        <div class="foodbox">水果類</div>
+      </div>
+      <div class="target d-flex " id="target5">
+        <div class="foodbox">豆魚蛋肉類</div>
+      </div>
+      <div class="target d-flex " id="target6">
+        <div class="foodbox">乳品類</div>
+      </div>
+      <div class="target d-flex " id="target7">
+        <div class="foodbox">油脂與堅果種子類</div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
