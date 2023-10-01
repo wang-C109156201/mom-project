@@ -171,7 +171,7 @@ input#menu {
   font-family: 'cwTeXYen', sans-serif;
   margin: 0;
   position: absolute;
-  top: 65%; 
+  top: 70%; 
   transform: translateY(-50%); /* 垂直置中 */
 }
 
