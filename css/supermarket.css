@@ -48,41 +48,72 @@ body{
     width: 100%;
 }
 .target{
-    border: 2px solid gray;
-    margin:5px;
-    padding:10px;
-    border-radius: 5px;
-    display: flex;
-   
+  border: 2px solid gray;
+  margin:5px;
+  padding:10px;
+  border-radius: 5px;
 }
 .target.over{
-    border: 2px solid rgb(97, 126, 200);
+    border: 2px dashed rgb(97, 126, 200);
     background-color: rgba(107, 191, 236, 0.101);
 }
-#target1{
+
+.storeblock{
     height: 30%;
     width: 100%;
     min-height: 90px;
     display: inline-block;
 }
+#targrt1{
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 40vh;
+  color: rgb(97, 126, 200);
+}
 #target2,#target3,#target4,#target5,#target6,#target7{
-    width: 30%;
-    display: inline-block;
-    margin-bottom: 20px;
-    height: 40vh;
-    color: rgb(97, 126, 200);
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 40vh;
+  color: rgb(97, 126, 200);
 }
-
+#target8{
+  height: 30%;
+  width: 95%;
+  min-height: 90px;
+  display: inline-block;
+  color: rgb(97, 126, 200);
+  margin-left: 0.7rem;
+}
 .box{
-    width: 6.3vw;
-    height: 5.3vw;
-    padding: 5.7px;
-    /* margin: 5px; */
-    float: left;
-    border-radius: 5px;
-    
+  width:4vw;
+  height: 3.5vw;
+  padding: 3px 5px;
+  float: left;
+  border-radius: 5px;
 }
-
+#box49{
+  width: 7vw;
+}
+#box8,#box21,#box52{
+  width: 6vw;
+}
+#box2,#box5,#box22,#box26,#box31,#box41,#box42,#box55{
+  width:2.5vw;
+  height: 5vw;
+}
+#box3,#box4,#box10,#box12,#box13,#box12,#box17,#box23,#box24,#box30,#box32,#box34,#box47,#box51{
+  width:4vw;
+  height: 3.5vw;
+}
+#box15,#box18,#box19,#box20,#box33,#box46,#box57{
+  width:3.5vw;
+  height: 3.5vw;
+}
+#box6,#box11{
+  width:3.5vw;
+}
 .container{
     background-color: white;
     width: 100%;
@@ -110,7 +141,7 @@ h1{
 .line {
     width: 24px;
     height: 30px;
-    background: rgba(97, 126, 200, 0);
+    background: rgba(97, 126, 200, 0.703);
     cursor: pointer;
     display: block;
     padding: 18px;
@@ -143,6 +174,9 @@ h1{
   /*
   點選選單變叉叉
   */
+  #menu:checked + .line {
+    background: rgb(40, 49, 123);
+  }
   #menu:checked + .line .menu {
     background: transparent;
     
@@ -229,14 +263,43 @@ h1{
 .store  .img  img{
   position:absolute;
   width: 100%;
-    height: 20rem;
-  /* background-color: aqua; */
+  height: 20rem;
+  opacity: 0.85;
 }
 .storebox{
   position: absolute;
-    width: 25%;
-    height: 10rem;
-    background-color: rgba(27, 46, 46, 0.544);
-    margin-top: 3rem;
-
+  width: 18%;
+  height: 8rem;
+  background-color: rgba(27, 46, 46, 0.379);
+  margin-top: 5.5rem;
+}
+.fstorebox{
+  position: absolute;
+  width: 18%;
+  height: 7.5rem;
+  background-color: rgba(27, 46, 46, 0.379);
+  margin-top: 5.5rem;
+  margin-left: 3rem;
+}
+.vstorebox{
+  position: absolute;
+  width: 23%;
+  height: 12rem;
+  background-color: rgba(27, 46, 46, 0.379);
+  margin-top: 0.5rem;
+}
+.dstorebox{
+  position: absolute;
+  width: 14%;
+  height: 5rem;
+  background-color: rgba(27, 46, 46, 0.379);
+  margin-top: 7.5rem;
+  margin-left: -1.2rem;
+}
+.sstorebox{
+  position: absolute;
+  width: 16%;
+  height: 11rem;
+  background-color: rgba(27, 46, 46, 0.379);
+  margin-top: 4.5rem;
 }

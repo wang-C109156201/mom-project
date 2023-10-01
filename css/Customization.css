@@ -115,7 +115,7 @@ body{
 .line {
   width: 24px;
   height: 30px;
-  background: rgba(97, 126, 200, 0);
+  background: rgba(97, 126, 200, 0.703);
   cursor: pointer;
   display: block;
   padding: 18px;
@@ -146,6 +146,9 @@ body{
   top: 6px;
 }
 /*點選選單變叉叉*/
+#menu:checked + .line {
+  background: rgb(40, 49, 123);
+}
 #menu:checked + .line .menu {
   background: transparent;
   
