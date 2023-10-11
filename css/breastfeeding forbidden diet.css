@@ -79,10 +79,6 @@ body{
   min-width:27%;
   max-width: 28%;
 }
-/* .target-inside.over{
-  border: 2px dashed rgb(97, 126, 200);
-  background-color: rgba(255, 5, 5, 0.5);
-} ???*/
 #target1{
   height: 30%;
   width: 100%;
@@ -103,7 +99,9 @@ body{
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  min-height: 56vh;
+  min-height: 60vh;
+  border: 2px solid gray;
+  border-radius: 5px;
 }
 #target13,#target14{
   width: 100%;
@@ -145,11 +143,11 @@ body{
   width: 8.8vw;
   height: 5.5vw;
 }
-#box12,#box13{
+#box12,#box13,#box14{
   width: 9.5vw;
   height: 4.5vw;
 }
-#box14,#box16{
+#box16{
   width: 7.5vw;
   height: 6vw;
 }

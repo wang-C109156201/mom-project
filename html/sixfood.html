@@ -1,112 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>均衡飲食六大類食物</title>
-    <link rel="stylesheet" href="../css/sixfood.css">
-    <script src="../js/jquery.min.js"></script>
-    <script type="module" src="../js/index.js"></script>
-</head>
-<body>
-    <header class="main-header">
-      <div class="header-container">
-        <nav class="nav-box">
-          <input type="checkbox" id="menu">
-          <label for="menu" class="line">
-             <div class="menu"></div>
-          </label>
-          <div class="menu-list">
-            <ul>
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="./momhealth.html">媽咪的營養=寶寶的健康</a></li>
-              <li><a href="./Customization.html">客製化ㄋㄟㄋㄟ</a></li>
-              <li><a href="./rainbow.html">彩虹般的食物</a>
-              <li><a href="./choosefood.html">原型食物/加工食物</a></li>
-              <li><a href="./balance diet.html">全食物/非全食物</a></li>
-              <li><a href="./balance diet copy.html">高油炸食物/高糖食物</a></li>
-              <li><a href="./pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
-              <li><a href="./breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
-              <li><a href="./sixfood.html">均衡飲食六大類食物</a></li>
-              <li><a href="./supermarket.html">SUPERMARKET</a></li>
-              <li><a href="./dietary recommendations.html">一天均衡飲食的量</a></li>
-              <!-- <li><a href="./grade.html">成績排行</a></li> -->
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <div class="container">
-      <div class="word">
-        <!-- <div class="triangle" id="triangle1"></div> -->
-        <h1>—均衡飲食六大類食物—</h1> 
-      </div>
-      <div class="boxone">
-        <div class="target d-flex" id="target1">
-          <div><img src="../img/sixfood/avocado.png" alt="avocado" class="box" id="box1" draggable="true"></div>
-          <div><img src="../img/sixfood/baby corn.png" alt="baby corn" class="box" id="box2" draggable="true"></div>
-          <div><img src="../img/sixfood/banana.png" alt="banana.png" class="box" id="box3" draggable="true"></div>
-          <div><img src="../img/sixfood/black bean.png" alt="black bean" class="box" id="box4" draggable="true"></div>
-          <div><img src="../img/sixfood/barley.png" alt="barley" class="box" id="box5" draggable="true"></div>
-          <div><img src="../img/sixfood/brown rice.png" alt="brown rice" class="box" id="box6" draggable="true"></div>
-          <div><img src="../img/sixfood/broccoli.png" alt="broccoli" class="box" id="box7" draggable="true"></div>
-          <div><img src="../img/sixfood/Cabbage.png" alt="Cabbage" class="box" id="box8" draggable="true"></div>
-          <div><img src="../img/sixfood/Burdock.png" alt="Burdock" class="box" id="box9" draggable="true"></div>
-          <div><img src="../img/sixfood/corn.png" alt="corn" class="box" id="box10" draggable="true"></div>
-          <div><img src="../img/sixfood/grape.png" alt="grape" class="box" id="box11" draggable="true"></div>
-          <div><img src="../img/sixfood/carrot.png" alt="carrot." class="box" id="box12" draggable="true"></div>
-          <div><img src="../img/sixfood/cheese.png" alt="cheese" class="box" id="box13" draggable="true"></div>
-          <div><img src="../img/sixfood/chestnut.png" alt="chestnut" class="box" id="box14" draggable="true"></div>
-          <div><img src="../img/sixfood/cucumber.png" alt="cucumber" class="box" id="box15" draggable="true"></div>
-          <div><img src="../img/sixfood/egg.png" alt="egg" class="box" id="box16" draggable="true"></div>
-          <div><img src="../img/sixfood/gava.png" alt="gava" class="box" id="box17" draggable="true"></div>
-          <div><img src="../img/sixfood/Enoki.png" alt="Enoki" class="box" id="box18" draggable="true"></div>
-          <div><img src="../img/sixfood/lotus plumule.png" alt="lotus plumule" class="box" id="box19" draggable="true"></div>
-          <div><img src="../img/sixfood/milk.png" alt="milk" class="box" id="box20" draggable="true"></div>
-          <div><img src="../img/sixfood/orange.png" alt="orange" class="box" id="box21" draggable="true"></div>
-          <div><img src="../img/sixfood/mushroom.png" alt="mushroom" class="box" id="box22" draggable="true"></div>
-          <div><img src="../img/sixfood/nut.png" alt="nut" class="box" id="box23" draggable="true"></div>
-          <div><img src="../img/sixfood/potato (2).png" alt="potato" class="box" id="box24" draggable="true"></div>
-          <div><img src="../img/sixfood/pumpkin.png" alt="pumpkin" class="box" id="box25" draggable="true"></div>
-          <div><img src="../img/sixfood/pistachio.png" alt="pistachio" class="box" id="box26" draggable="true"></div>
-          <div><img src="../img/sixfood/pork.png" alt="pork" class="box" id="box27" draggable="true"></div>
-          <div><img src="../img/sixfood/soy.png" alt="soy" class="box" id="box28" draggable="true"></div>
-          <div><img src="../img/sixfood/shrimp.png" alt="shrimp" class="box" id="box29" draggable="true"></div>
-          <div><img src="../img/sixfood/Steamed bun.png" alt="" class="box" id="box30" draggable="true"></div>
-          <div><img src="../img/sixfood/Taro.png" alt="Taro" class="box" id="box31" draggable="true"></div>   
-          <div><img src="../img/sixfood/eggplant.png" alt="eggplant" class="box" id="box32" draggable="true"></div> 
-          <div><img src="../img/sixfood/water chestnut.png" alt="water chestnut" class="box" id="box32" draggable="true"></div> 
-          <div><img src="../img/sixfood/yam.png" alt="yam" class="box" id="box32" draggable="true"></div> 
-          <div><img src="../img/sixfood/tomato.png" alt="tomato" class="box" id="box33" draggable="true"></div> 
-          <div><img src="../img/sixfood/海帶結.png" alt="海帶結" class="box" id="box34" draggable="true"></div> 
-          <div><img src="../img/sixfood/豆薯.png" alt="豆薯" class="box" id="box36" draggable="true"></div>
-          <div><img src="../img/sixfood/荸薺.png" alt="荸薺" class="box" id="box37" draggable="true"></div>
-          <div><img src="../img/sixfood/鮭魚.png" alt="鮭魚" class="box" id="box38" draggable="true"></div>
-          <div><img src="../img/sixfood/花生.png" alt="花生" class="box" id="box39" draggable="true"></div>           
-          <div><img src="../img/sixfood/bean.png" alt="bean" class="box" id="box40" draggable="true"></div>
-          <div><img src="../img/sixfood/yogurt.png" alt="yogurt" class="box" id="box41" draggable="true"></div>
-          <div><img src="../img/sixfood/oil.png" alt="oil" class="box" id="box42" draggable="true"></div>
-          <div><img src="../img/sixfood/lotus root.png" alt="lotus root" class="box" id="box43" draggable="true"></div>
-          <div><img src="../img/sixfood/四季豆.png" alt="noodle.png" class="box" id="box44" draggable="true"></div>
-          <div><img src="../img/sixfood/大番茄.png" alt="noodle.png" class="box" id="box45" draggable="true"></div>
-          <div><img src="../img/sixfood/紅棗.png" alt="noodle.png" class="box" id="box46" draggable="true"></div>
-          <div><img src="../img/sixfood/fish.png" alt="noodle.png" class="box" id="box47" draggable="true"></div>
-          <div><img src="../img/sixfood/鸚嘴豆.png" alt="noodle.png" class="box" id="box48" draggable="true"></div>
-          <div><img src="../img/sixfood/黃豆芽.png" alt="noodle.png" class="box" id="box49" draggable="true"></div>
-          <div><img src="../img/sixfood/wolfberry.png" alt="noodle.png" class="box" id="box50" draggable="true"></div>
 
-          
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>均衡飲食六大類食物</title>
+  <link rel="stylesheet" href="../css/sixfood.css">
+  <script src="../js/jquery.min.js"></script>
+  <script type="module" src="../js/index.js"></script>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <nav class="nav-box">
+        <input type="checkbox" id="menu">
+        <label for="menu" class="line">
+          <div class="menu"></div>
+        </label>
+        <div class="menu-list">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./momhealth.html">媽咪的營養=寶寶的健康</a></li>
+            <li><a href="./Customization.html">客製化ㄋㄟㄋㄟ</a></li>
+            <li><a href="./rainbow.html">彩虹般的食物</a>
+            <li><a href="./choosefood.html">原型食物/加工食物</a></li>
+            <li><a href="./balance diet.html">全食物/非全食物</a></li>
+            <li><a href="./balance diet copy.html">高油炸食物/高糖食物</a></li>
+            <li><a href="./pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
+            <li><a href="./breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
+            <li><a href="./sixfood.html">均衡飲食六大類食物</a></li>
+            <li><a href="./supermarket.html">SUPERMARKET</a></li>
+            <li><a href="./dietary recommendations.html">一天均衡飲食的量</a></li>
+            <!-- <li><a href="./grade.html">成績排行</a></li> -->
+          </ul>
         </div>
-      </div>
-      <div class="wrap" id="height">
-        <div class="target d-flex " id="target2"><div class="foodbox">全榖雜糧類</div></div>
-        <div class="target d-flex " id="target3"><div class="foodbox">蔬菜類</div></div>
-        <div class="target d-flex " id="target4"><div class="foodbox">水果類</div></div>
-        <div class="target d-flex " id="target5"><div class="foodbox">豆魚蛋肉類</div></div>
-        <div class="target d-flex " id="target6"><div class="foodbox">乳品類</div></div>
-        <div class="target d-flex " id="target7"><div class="foodbox">油脂與堅果種子類</div></div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="word">
+      <!-- <div class="triangle" id="triangle1"></div> -->
+      <h1>—均衡飲食六大類食物—</h1>
+    </div>
+    <div class="boxone">
+      <div class="target d-flex" id="target1">
+        <div><img src="../img/sixfood/avocado.png" alt="avocado" class="box" id="box1" draggable="true"></div>
+        <div><img src="../img/sixfood/baby corn.png" alt="baby corn" class="box" id="box2" draggable="true"></div>
+        <div><img src="../img/sixfood/banana.png" alt="banana.png" class="box" id="box3" draggable="true"></div>
+        <div><img src="../img/sixfood/black bean.png" alt="black bean" class="box" id="box4" draggable="true"></div>
+        <div><img src="../img/sixfood/barley.png" alt="barley" class="box" id="box5" draggable="true"></div>
+        <div><img src="../img/sixfood/brown rice.png" alt="brown rice" class="box" id="box6" draggable="true"></div>
+        <div><img src="../img/sixfood/broccoli.png" alt="broccoli" class="box" id="box7" draggable="true"></div>
+        <div><img src="../img/sixfood/Cabbage.png" alt="Cabbage" class="box" id="box8" draggable="true"></div>
+        <div><img src="../img/sixfood/Burdock.png" alt="Burdock" class="box" id="box9" draggable="true"></div>
+        <div><img src="../img/sixfood/corn.png" alt="corn" class="box" id="box10" draggable="true"></div>
+        <div><img src="../img/sixfood/grape.png" alt="grape" class="box" id="box11" draggable="true"></div>
+        <div><img src="../img/sixfood/carrot.png" alt="carrot." class="box" id="box12" draggable="true"></div>
+        <div><img src="../img/sixfood/cheese.png" alt="cheese" class="box" id="box13" draggable="true"></div>
+        <div><img src="../img/sixfood/chestnut.png" alt="chestnut" class="box" id="box14" draggable="true"></div>
+        <div><img src="../img/sixfood/cucumber.png" alt="cucumber" class="box" id="box15" draggable="true"></div>
+        <div><img src="../img/sixfood/egg.png" alt="egg" class="box" id="box16" draggable="true"></div>
+        <div><img src="../img/sixfood/gava.png" alt="gava" class="box" id="box17" draggable="true"></div>
+        <div><img src="../img/sixfood/Enoki.png" alt="Enoki" class="box" id="box18" draggable="true"></div>
+        <div><img src="../img/sixfood/lotus plumule.png" alt="lotus plumule" class="box" id="box19" draggable="true">
+        </div>
+        <div><img src="../img/sixfood/milk.png" alt="milk" class="box" id="box20" draggable="true"></div>
+        <div><img src="../img/sixfood/orange.png" alt="orange" class="box" id="box21" draggable="true"></div>
+        <div><img src="../img/sixfood/mushroom.png" alt="mushroom" class="box" id="box22" draggable="true"></div>
+        <div><img src="../img/sixfood/nut.png" alt="nut" class="box" id="box23" draggable="true"></div>
+        <div><img src="../img/sixfood/potato (2).png" alt="potato" class="box" id="box24" draggable="true"></div>
+        <div><img src="../img/sixfood/pumpkin.png" alt="pumpkin" class="box" id="box25" draggable="true"></div>
+        <div><img src="../img/sixfood/pistachio.png" alt="pistachio" class="box" id="box26" draggable="true"></div>
+        <div><img src="../img/sixfood/pork.png" alt="pork" class="box" id="box27" draggable="true"></div>
+        <div><img src="../img/sixfood/soy.png" alt="soy" class="box" id="box28" draggable="true"></div>
+        <div><img src="../img/sixfood/shrimp.png" alt="shrimp" class="box" id="box29" draggable="true"></div>
+        <div><img src="../img/sixfood/Steamed bun.png" alt="" class="box" id="box30" draggable="true"></div>
+        <div><img src="../img/sixfood/Taro.png" alt="Taro" class="box" id="box31" draggable="true"></div>
+        <div><img src="../img/sixfood/eggplant.png" alt="eggplant" class="box" id="box32" draggable="true"></div>
+        <div><img src="../img/sixfood/water chestnut.png" alt="water chestnut" class="box" id="box35" draggable="true">
+        </div>
+        <div><img src="../img/sixfood/yam.png" alt="yam" class="box" id="box51" draggable="true"></div>
+        <div><img src="../img/sixfood/tomato.png" alt="tomato" class="box" id="box33" draggable="true"></div>
+        <div><img src="../img/sixfood/海帶結.png" alt="海帶結" class="box" id="box34" draggable="true"></div>
+        <div><img src="../img/sixfood/豆薯.png" alt="豆薯" class="box" id="box36" draggable="true"></div>
+        <div><img src="../img/sixfood/荸薺.png" alt="荸薺" class="box" id="box37" draggable="true"></div>
+        <div><img src="../img/sixfood/鮭魚.png" alt="鮭魚" class="box" id="box38" draggable="true"></div>
+        <div><img src="../img/sixfood/花生.png" alt="花生" class="box" id="box39" draggable="true"></div>
+        <div><img src="../img/sixfood/bean.png" alt="bean" class="box" id="box40" draggable="true"></div>
+        <div><img src="../img/sixfood/yogurt.png" alt="yogurt" class="box" id="box41" draggable="true"></div>
+        <div><img src="../img/sixfood/oil.png" alt="oil" class="box" id="box42" draggable="true"></div>
+        <div><img src="../img/sixfood/lotus root.png" alt="lotus root" class="box" id="box43" draggable="true"></div>
+        <div><img src="../img/sixfood/四季豆.png" alt="noodle.png" class="box" id="box44" draggable="true"></div>
+        <div><img src="../img/sixfood/大番茄.png" alt="noodle.png" class="box" id="box45" draggable="true"></div>
+        <div><img src="../img/sixfood/紅棗.png" alt="noodle.png" class="box" id="box46" draggable="true"></div>
+        <div><img src="../img/sixfood/fish.png" alt="noodle.png" class="box" id="box47" draggable="true"></div>
+        <div><img src="../img/sixfood/鸚嘴豆.png" alt="noodle.png" class="box" id="box48" draggable="true"></div>
+        <div><img src="../img/sixfood/黃豆芽.png" alt="noodle.png" class="box" id="box49" draggable="true"></div>
+        <div><img src="../img/sixfood/wolfberry.png" alt="noodle.png" class="box" id="box50" draggable="true"></div>
+
+
       </div>
     </div>
+    <div class="wrap" id="height">
+      <div class="target d-flex " id="target2">
+        <div class="foodbox">全榖雜糧類</div>
+      </div>
+      <div class="target d-flex " id="target3">
+        <div class="foodbox">蔬菜類</div>
+      </div>
+      <div class="target d-flex " id="target4">
+        <div class="foodbox">水果類</div>
+      </div>
+      <div class="target d-flex " id="target5">
+        <div class="foodbox">豆魚蛋肉類</div>
+      </div>
+      <div class="target d-flex " id="target6">
+        <div class="foodbox">乳品類</div>
+      </div>
+      <div class="target d-flex " id="target7">
+        <div class="foodbox">油脂與堅果種子類</div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
