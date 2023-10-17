@@ -1,163 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>一天均衡飲食的量</title>
-    <link rel="stylesheet" href="../css/dietary recommendations.css">
-    <script src="../js/jquery.min.js"></script>
-    <script type="module" src="../js/index.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一天均衡飲食的量</title>
+  <link rel="stylesheet" href="../css/dietary recommendations.css">
+  <script src="../js/jquery.min.js"></script>
+  <script type="module" src="../js/index.js"></script>
 </head>
+
 <body>
-    <header class="main-header">
-      <div class="header-container">
-        <nav class="nav-box">
-          <input type="checkbox" id="menu">
-          <label for="menu" class="line">
-             <div class="menu"></div>
-          </label>
-          <div class="menu-list">
-            <ul>
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="./momhealth.html">媽咪的營養=寶寶的健康</a></li>
-              <li><a href="./Customization.html">客製化ㄋㄟㄋㄟ</a></li>
-              <li><a href="./rainbow.html">彩虹般的食物</a>
-              <li><a href="./choosefood.html">原型食物/加工食物</a></li>
-              <li><a href="./balance diet.html">全食物/非全食物</a></li>
-              <li><a href="./balance diet copy.html">高油炸食物/高糖食物</a></li>
-              <li><a href="./pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
-              <li><a href="./breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
-              <li><a href="./sixfood.html">均衡飲食六大類食物</a></li>
-              <li><a href="./supermarket.html">SUPERMARKET</a></li>
-              <li><a href="./dietary recommendations.html">一天均衡飲食的量</a></li>
-              <!-- <li><a href="./grade.html">成績排行</a></li> -->
-            </ul>
-          </div>
-        </nav>
-      </div>
-      </header>
-      <div class="container">
-        <div class="word">
-          <h1>一天均衡飲食的量</h1> 
+  <header class="main-header">
+    <div class="header-container">
+      <nav class="nav-box">
+        <input type="checkbox" id="menu">
+        <label for="menu" class="line">
+          <div class="menu"></div>
+        </label>
+        <div class="menu-list">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./momhealth.html">媽咪的營養=寶寶的健康</a></li>
+            <li><a href="./Customization.html">客製化ㄋㄟㄋㄟ</a></li>
+            <li><a href="./rainbow.html">彩虹般的食物</a>
+            <li><a href="./choosefood.html">原型食物/加工食物</a></li>
+            <li><a href="./balance diet.html">全食物/非全食物</a></li>
+            <li><a href="./balance diet copy.html">高油炸食物/高糖食物</a></li>
+            <li><a href="./pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
+            <li><a href="./breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
+            <li><a href="./sixfood.html">均衡飲食六大類食物</a></li>
+            <li><a href="./supermarket.html">SUPERMARKET</a></li>
+            <li><a href="./dietary recommendations.html">一天均衡飲食的量</a></li>
+            <!-- <li><a href="./grade.html">成績排行</a></li> -->
+          </ul>
         </div>
-        <div class="boxone">
-          <div class="groupone">
-            <div class="target d-flex" id="target13">
-              <div class="Egg">
-                <div class="wordbox">蛋豆魚肉類1份</div>
-                <div><img src="../img/dietary recommendations/資產 30.png" alt="coffee" class="box" id="box1" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 31.png" alt="fish meet" class="box" id="box2" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 32.png" alt="medicine" class="box" id="box3" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 33.png" alt="salad" class="box" id="box4" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 34.png" alt="sashimi" class="box" id="box5" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 35.png" alt="smoke" class="box" id="box6" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 36.png" alt="smokes" class="box" id="box7" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 37.png" alt="tea" class="box" id="box8" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 38.png" alt="png" class="box" id="box9" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 39.png" alt="png" class="box" id="box10" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 40.png" alt="png" class="box" id="box11" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 41.png" alt="png" class="box" id="box12" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 42.png" alt="png" class="box" id="box13" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 43.png" alt="png" class="box" id="box14" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 44.png" alt="png" class="box" id="box15" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 44.png" alt="png" class="box" id="box16" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 46.png" alt="png" class="box" id="box17" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 47.png" alt="png" class="box" id="box18" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 48.png" alt="png" class="box" id="box19" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 49.png" alt="png" class="box" id="box20" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 50.png" alt="png" class="box" id="box21" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 51.png" alt="png" class="box" id="box22" draggable="true"></div> -->
-              </div>
-            </div> 
-            <div class="target d-flex" id="target1">
-              <div class="Dairy">
-                <div class="wordbox">乳品類1份</div>
-                <div><img src="../img/dietary recommendations/資產 58.png" alt="png" class="box" id="box45" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 59.png" alt="png" class="box" id="box46" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 60.png" alt="png" class="box" id="box47" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 61.png" alt="png" class="box" id="box48" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 62.png" alt="png" class="box" id="box49" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 63.png" alt="png" class="box" id="box61" draggable="true"></div>
-              </div>
-            </div> 
-            <div class="target d-flex" id="target10">
-              <div class="Vegetables">
-                <div class="wordbox">蔬菜類1份</div>
-                <div><img src="../img/dietary recommendations/資產 1.png" alt="png" class="box" id="box23" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 2.png" alt="png" class="box" id="box24" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 3.png" alt="png" class="box" id="box25" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 4.png" alt="png" class="box" id="box26" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 5.png" alt="png" class="box" id="box27" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 6.png" alt="png" class="box" id="box28" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 7.png" alt="png" class="box" id="box29" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 8.png" alt="png" class="box" id="box30" draggable="true"></div>
-              </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="word">
+      <h1>一天均衡飲食的量</h1>
+    </div>
+    <div class="boxone">
+      <div class="groupone">
+        <div class="target d-flex" id="target13">
+          <div class="Egg">
+            <div class="wordbox">蛋豆魚肉類1份</div>
+            <div><img src="../img/dietary recommendations/資產 30.png" alt="coffee" class="box" id="box1"
+                draggable="true"></div>
+            <!-- <div><img src="../img/dietary recommendations/資產 31.png" alt="fish meet" class="box" id="box2" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 32.png" alt="medicine" class="box" id="box3"
+                draggable="true"></div>
+            <!-- <div><img src="../img/dietary recommendations/資產 33.png" alt="salad" class="box" id="box4" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 34.png" alt="sashimi" class="box" id="box5"
+                draggable="true"></div>
+            <!-- <div><img src="../img/dietary recommendations/資產 35.png" alt="smoke" class="box" id="box6" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 36.png" alt="smokes" class="box" id="box7"
+                draggable="true"></div>
+            <!-- <div><img src="../img/dietary recommendations/資產 37.png" alt="tea" class="box" id="box8" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 38.png" alt="png" class="box" id="box9" draggable="true">
             </div>
-          </div>
-          <!---------------------------------------------------------------------------------------------------------------------->
-          <div class="grouptwo">
-            <div class="target d-flex" id="target12">
-              <div class="Grains">
-                <div class="wordbox">全穀雜糧類4份</div>
-                <div><img src="../img/dietary recommendations/資產 19.png" alt="png" class="box" id="box50" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 20.png" alt="png" class="box" id="box51" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 21.png" alt="png" class="box" id="box52" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 22.png" alt="png" class="box" id="box53" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 23.png" alt="png" class="box" id="box54" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 24.png" alt="png" class="box" id="box55" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 25.png" alt="png" class="box" id="box56" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 26.png" alt="png" class="box" id="box57" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 27.png" alt="png" class="box" id="box58" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 28.png" alt="png" class="box" id="box59" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 29.png" alt="png" class="box" id="box60" draggable="true"></div>
-              </div> 
+            <!-- <div><img src="../img/dietary recommendations/資產 39.png" alt="png" class="box" id="box10" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 40.png" alt="png" class="box" id="box11" draggable="true">
             </div>
-            <div class="target d-flex" id="target11">
-              <div class="Furit">
-                <div class="wordbox">水果類1份</div>
-                <div><img src="../img/dietary recommendations/資產 9.png" alt="png" class="box" id="box31" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 10.png" alt="png" class="box" id="box32" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 11.png" alt="png" class="box" id="box33" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 12.png" alt="png" class="box" id="box34" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 13.png" alt="png" class="box" id="box35" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 14.png" alt="png" class="box" id="box36" draggable="true"></div>
-                <!-- <div><img src="../img/dietary recommendations/資產 15.png" alt="png" class="box" id="box37" draggable="true"></div> -->
-                <div><img src="../img/dietary recommendations/資產 16.png" alt="png" class="box" id="box38" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 17.png" alt="png" class="box" id="box39" draggable="true"></div>
-              </div>
+            <!-- <div><img src="../img/dietary recommendations/資產 41.png" alt="png" class="box" id="box12" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 42.png" alt="png" class="box" id="box13" draggable="true">
             </div>
-            <div class="target d-flex" id="target12">
-              <div class="Nuts">
-                <div class="wordbox">堅果類1份</div>
-                <div><img src="../img/dietary recommendations/資產 53.png" alt="png" class="box" id="box40" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 54.png" alt="png" class="box" id="box41" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 55.png" alt="png" class="box" id="box42" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 56.png" alt="png" class="box" id="box43" draggable="true"></div>
-                <div><img src="../img/dietary recommendations/資產 57.png" alt="png" class="box" id="box44" draggable="true"></div>
-              </div>
-            </div>  
+            <!-- <div><img src="../img/dietary recommendations/資產 43.png" alt="png" class="box" id="box14" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 44.png" alt="png" class="box" id="box15" draggable="true">
+            </div>
+            <!-- <div><img src="../img/dietary recommendations/資產 44.png" alt="png" class="box" id="box16" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 46.png" alt="png" class="box" id="box17" draggable="true">
+            </div>
+            <!-- <div><img src="../img/dietary recommendations/資產 47.png" alt="png" class="box" id="box18" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 48.png" alt="png" class="box" id="box19" draggable="true">
+            </div>
+            <!-- <div><img src="../img/dietary recommendations/資產 49.png" alt="png" class="box" id="box20" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 50.png" alt="png" class="box" id="box21" draggable="true">
+            </div>
+            <!-- <div><img src="../img/dietary recommendations/資產 51.png" alt="png" class="box" id="box22" draggable="true"></div> -->
           </div>
         </div>
-        <div class="wrap" id="height">
-          <div class="target" id="target2">
-            <div class="wordbox">我的餐盒</div>
-            <div class="groupbig">
-              <div class="group">
-                <div class="target-inside" id="target4"><div class="wordbox">蛋豆魚肉類2份</div></div>
-                <div class="target-inside" id="target5"><div class="wordbox">全榖雜糧類4份</div></div>
-              </div>
-              <div class="column">
-                <div class="target-inside" id="target6"><div class="wordbox">水果類1份</div></div>
-                <div class="target-inside" id="target7"><div class="wordbox">堅果類一天1份</div></div>
-              </div>
-              <div class="column2">
-                <div class="target-inside" id="target8"><div class="wordbox">蔬菜類1份</div></div>
-                <div class="target-inside" id="target9"><div class="wordbox">乳品類1天1.5份</div></div>
-              </div>
+        <div class="target d-flex" id="target1">
+          <div class="Dairy">
+            <div class="wordbox">乳品類1份</div>
+            <div><img src="../img/dietary recommendations/資產 58.png" alt="png" class="box" id="box45" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 59.png" alt="png" class="box" id="box46" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 60.png" alt="png" class="box" id="box47" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 61.png" alt="png" class="box" id="box48" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 62.png" alt="png" class="box" id="box49" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 63.png" alt="png" class="box" id="box61" draggable="true">
+            </div>
+          </div>
+        </div>
+        <div class="target d-flex" id="target10">
+          <div class="Vegetables">
+            <div class="wordbox">蔬菜類1份</div>
+            <div><img src="../img/dietary recommendations/資產 1.png" alt="png" class="box" id="box23" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 2.png" alt="png" class="box" id="box24" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 3.png" alt="png" class="box" id="box25" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 4.png" alt="png" class="box" id="box26" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 5.png" alt="png" class="box" id="box27" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 6.png" alt="png" class="box" id="box28" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 7.png" alt="png" class="box" id="box29" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 8.png" alt="png" class="box" id="box30" draggable="true">
             </div>
           </div>
         </div>
       </div>
+      <!---------------------------------------------------------------------------------------------------------------------->
+      <div class="grouptwo">
+        <div class="target d-flex" id="target12">
+          <div class="Grains">
+            <div class="wordbox">全穀雜糧類4份</div>
+            <div><img src="../img/dietary recommendations/資產 19.png" alt="png" class="box" id="box50" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 20.png" alt="png" class="box" id="box51" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 74@1.5x.png" alt="png" class="box" id="box52"
+                draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 22.png" alt="png" class="box" id="box53" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 23.png" alt="png" class="box" id="box54" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 24.png" alt="png" class="box" id="box55" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 25.png" alt="png" class="box" id="box56" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 26.png" alt="png" class="box" id="box57" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 27.png" alt="png" class="box" id="box58" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 28.png" alt="png" class="box" id="box59" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 29.png" alt="png" class="box" id="box60" draggable="true">
+            </div>
+          </div>
+        </div>
+        <div class="target d-flex" id="target11">
+          <div class="Furit">
+            <div class="wordbox">水果類1份</div>
+            <div><img src="../img/dietary recommendations/資產 9.png" alt="png" class="box" id="box31" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 10.png" alt="png" class="box" id="box32" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 11.png" alt="png" class="box" id="box33" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 12.png" alt="png" class="box" id="box34" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 13.png" alt="png" class="box" id="box35" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 14.png" alt="png" class="box" id="box36" draggable="true">
+            </div>
+            <!-- <div><img src="../img/dietary recommendations/資產 15.png" alt="png" class="box" id="box37" draggable="true"></div> -->
+            <div><img src="../img/dietary recommendations/資產 16.png" alt="png" class="box" id="box38" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 17.png" alt="png" class="box" id="box39" draggable="true">
+            </div>
+          </div>
+        </div>
+        <div class="target d-flex" id="target12">
+          <div class="Nuts">
+            <div class="wordbox">堅果類1份</div>
+            <div><img src="../img/dietary recommendations/資產 53.png" alt="png" class="box" id="box40" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 54.png" alt="png" class="box" id="box41" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 55.png" alt="png" class="box" id="box42" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 56.png" alt="png" class="box" id="box43" draggable="true">
+            </div>
+            <div><img src="../img/dietary recommendations/資產 57.png" alt="png" class="box" id="box44" draggable="true">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap" id="height">
+      <div id="target2">
+        <div class="wordbox">我的早餐</div>
+        <div class="groupbig">
+          <div class="column2">
+            <div class="target target-inside" id="target4">
+              <div class="wordbox">蛋豆魚肉類2份</div>
+            </div>
+            <div class="target target-inside" id="target5">
+              <div class="wordbox">全榖雜糧類4份</div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="target target-inside" id="target6">
+              <div class="wordbox">水果類1份</div>
+            </div>
+            <div class="target target-inside" id="target7">
+              <div class="wordbox">堅果類1份/天</div>
+            </div>
+          </div>
+          <div class="column2">
+            <div class="target target-inside" id="target8">
+              <div class="wordbox">蔬菜類1份</div>
+            </div>
+            <div class="target target-inside" id="target9">
+              <div class="wordbox">乳品類1天1.5份</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="target14">
+        <div class="wordbox">我的午餐</div>
+        <div class="groupbig">
+          <div class="column2">
+            <div class="target target-inside" id="target15">
+              <div class="wordbox">蛋豆魚肉類2份</div>
+            </div>
+            <div class="target target-inside" id="target16">
+              <div class="wordbox">全榖雜糧類4份</div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="target target-inside" id="target17">
+              <div class="wordbox">水果類1份</div>
+            </div>
+            <div class="target target-inside" id="target18">
+              <div class="wordbox">堅果類1份/天</div>
+            </div>
+          </div>
+          <div class="column2">
+            <div class="target target-inside" id="target19">
+              <div class="wordbox">蔬菜類1份</div>
+            </div>
+            <div class="target target-inside" id="target20">
+              <div class="wordbox">乳品類1天1.5份</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="target21">
+        <div class="wordbox">我的晚餐</div>
+        <div class="groupbig">
+          <div class="column2">
+            <div id="target22">
+              <div class="wordbox">蛋豆魚肉類2份</div>
+              <div class="target target-inside"></div>
+            </div>
+            <div id="target23">
+              <div class="wordbox">全榖雜糧類4份</div>
+              <div class="target target-inside"></div>
+            </div>
+          </div>
+          <div class="column">
+            <div id="target24">
+              <div class="wordbox">水果類1份</div>
+              <div class="target target-inside"></div>
+            </div>
+            <div id="target25">
+              <div class="wordbox">堅果類1份/天</div>
+              <div class="target target-inside"></div>
+            </div>
+          </div>
+          <div class="column2">
+            <div id="target26">
+              <div class="wordbox">蔬菜類1份</div>
+              <div class="target target-inside"></div>
+            </div>
+            <div id="target27">
+              <div class="wordbox">乳品類1天1.5份</div>
+              <div class="target target-inside"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

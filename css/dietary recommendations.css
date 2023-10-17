@@ -53,7 +53,7 @@ body{
   margin: 15px;
 }
 .target{
-  border: 2px solid gray;
+  
   margin:5px;
   padding:5px;
   border-radius: 5px;
@@ -64,37 +64,48 @@ body{
   background-color: rgba(107, 191, 236, 0.101);
 }
 .target-inside{
-  border: 2px solid gray;
-  margin: 5px;
-  padding:10px;
-  border-radius: 5px;
-  display: flex;
-  float: left;
+  /* border: 2px solid gray; */
+  margin: 0px;
+  padding:0px;
+  /* border-radius: 5px; */
+  /* display: flex;
+  float: left; */
+  height: calc(100% - 25px);
 }
-
 #target1,#target10,#target11,#target12,#target13,#target14{
   min-height: 90px;
   display: inline-block;
+  border: 2px solid gray;
 }
-#target2{
-  width: 100%;
+#target2,#target14,#target21{
+  border: 2px solid #005ac86b;
+  padding:5px;
+  border-radius: 5px;
+  width: 33%;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 10px 5px;
   height: auto;
 }
-#target4,#target5{
-  display: inline-flex;
+/* #target4,#target5{
+  display: block;
   width: 100%;
-}
-#target6,#target7{
-  display: inline-block;
-  height: 7.5vw;
-  border-radius: 50%;
-}
-#target8,#target9{
-  display: inline-flex;
+  float: left;
+} */
+#target6,#target7,#target17,#target18,#target24,#target25{
+  display: block;
   height: 7.8vw;
+  /* border-radius: 50%; */
+  margin: 3px;
+  float: left;
+  background-color: #ffecac4d;
+}
+#target4,#target5,#target8,#target9,#target15,#target16,#target19,#target20,#target22,#target23,#target26,#target27{
+  display: block;
+  height: 50%;
+  float: left;
+  margin: 3px 0px;
+  background-color: #68bfe021;
 }
 .groupone{
   display: flex;
@@ -110,8 +121,8 @@ body{
 .column{
   display: flex;
   flex-direction: column;
-  width: 20%;
-  margin: 5px;
+  width: 25%;
+  margin: 5px 0px;
 }
 .column2{
   display: flex;
@@ -161,7 +172,7 @@ body{
   padding-right: 0px;
 }
 #box52{
-  width: 10vw;
+  width: 5vw;
   margin-left: 0px;
   padding-left: 0px;
   margin-right: 0px;
@@ -197,12 +208,13 @@ h1{
 }
 
 .wordbox{
-  width: 100%;
+  /* width: 100%; */
   height: 25px;
-  border-bottom-style: solid;
-  border-color: rgb(97, 126, 200);
-  color: rgb(97, 126, 200);
-  font-size: 17px;
+  border-bottom: 0.5px solid;
+  margin: 0 10px;
+  border-color: rgba(97, 126, 200, 0.42);
+  color: #001936;
+  font-size: 13px;
   display: flex;
   align-items: center;
   justify-content: center; 
