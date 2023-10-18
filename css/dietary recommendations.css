@@ -72,11 +72,12 @@ body{
   float: left; */
   height: calc(100% - 25px);
 }
-#target1,#target10,#target11,#target12,#target13,#target14{
+#target1,#target10,#target11,#target12,#target13,#target14,#target28{
   min-height: 90px;
   display: inline-block;
   border: 2px solid gray;
 }
+
 #target2,#target14,#target21{
   border: 2px solid #005ac86b;
   padding:5px;
@@ -87,35 +88,63 @@ body{
   margin: 10px 5px;
   height: auto;
 }
-/* #target4,#target5{
+/* #82e06821 */
+#target4,#target5,#target8,#target9{
   display: block;
-  width: 100%;
+  height: 50%;
   float: left;
-} */
-#target6,#target7,#target17,#target18,#target24,#target25{
+  margin: 3px 0px;
+  background-color: #82e06821;
+}
+#target6,#target7{
   display: block;
   height: 7.8vw;
-  /* border-radius: 50%; */
+  margin: 3px;
+  float: left;
+  background-color: #82e06821;
+}
+#target15,#target16,#target19,#target20{
+  display: block;
+  height: 50%;
+  float: left;
+  margin: 3px 0px;
+  background-color:  #ffecac4d;
+}
+#target17,#target18{
+  display: block;
+  height: 7.8vw;
   margin: 3px;
   float: left;
   background-color: #ffecac4d;
 }
-#target4,#target5,#target8,#target9,#target15,#target16,#target19,#target20,#target22,#target23,#target26,#target27{
+#target24,#target25{
+  display: block;
+  height: 7.8vw;
+  margin: 3px;
+  float: left;
+  background-color: #68bfe021;
+}
+#target22,#target23,#target26,#target27{
   display: block;
   height: 50%;
   float: left;
   margin: 3px 0px;
   background-color: #68bfe021;
 }
-.groupone{
+/* #target28{
+  display:inline-block;
+  border: 2px solid gray;
+} */
+.groupone , .grouptwo{
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-.grouptwo{
+.groupthree{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  
+  margin: 15px;
 }
 
 .column{
@@ -196,6 +225,9 @@ body{
 }
 #box58{
   width: 8.4vw;
+}
+#box62,#box63,#box64,#box65,#box66,#box67,#box68,#box69,#box70{
+  height: 5.5vw;
 }
 .container{
   background-color: white;

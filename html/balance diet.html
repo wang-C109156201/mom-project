@@ -1,85 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>全食物/非全食物</title>
-    <link rel="stylesheet" href="../css/balance diet.css">
-    <script src="../js/jquery.min.js"></script>
-    <script type="module" src="../js/index.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全食物/非全食物</title>
+  <link rel="stylesheet" href="../css/balance diet.css">
+  <script src="../js/jquery.min.js"></script>
+  <script type="module" src="../js/index.js"></script>
 </head>
+
 <body>
-    <header class="main-header">
-      <div class="header-container">
-        <nav class="nav-box">
-          <input type="checkbox" id="menu">
-          <label for="menu" class="line">
-             <div class="menu"></div>
-          </label>
-          <div class="menu-list">
-            <ul>
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="./momhealth.html">媽咪的營養=寶寶的健康</a></li>
-              <li><a href="./Customization.html">客製化ㄋㄟㄋㄟ</a></li>
-              <li><a href="./rainbow.html">彩虹般的食物</a>
-              <li><a href="./choosefood.html">原型食物/加工食物</a></li>
-              <li><a href="./balance diet.html">全食物/非全食物</a></li>
-              <li><a href="./balance diet copy.html">高油炸食物/高糖食物</a></li>
-              <li><a href="./pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
-              <li><a href="./breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
-              <li><a href="./sixfood.html">均衡飲食六大類食物</a></li>
-              <li><a href="./supermarket.html">SUPERMARKET</a></li>
-              <li><a href="./dietary recommendations.html">一天均衡飲食的量</a></li>
-              <!-- <li><a href="./grade.html">成績排行</a></li> -->
-            </ul>
-          </div>
-        </nav>
-      </div>
-      </header>
-    <div class="container">
-      <div class="word">
-        <!-- <div class="triangle" id="triangle1"></div> -->
-        <h1>全食物/非全食物</h1> 
-      </div>
-      <div class="boxone">
-        <div class="target d-flex" id="target1">
-          <div><img src="../img/balance diet/picwish.png" alt="brown rice" class="box" id="box1" draggable="true"></div>
-          <!-- <div><img src="../img/balance diet/bubble tea.png" alt="bubble tea" class="box" id="box2" draggable="true"></div>
-          <div><img src="../img/balance diet/cake.png" alt="cake" class="box" id="box3" draggable="true"></div> -->
-          <!-- <div><img src="../img/balance diet/chicken.png" alt="chicken" class="box" id="box4" draggable="true"></div> -->
-          <!-- <div><img src="../img/balance diet/02一把青_愛文芒果乾.png" alt="corn" class="box" id="box5" draggable="true"></div>
-          <div><img src="../img/balance diet/冰淇淋.png" alt="drumstick" class="box" id="box6" draggable="true"></div> -->
-          <!-- <div><img src="../img/balance diet/french fries.png" alt="french fries" class="box" id="box7" draggable="true"></div> -->
-          <!-- <div><img src="../img/balance diet/鹹酥雞.png" alt="one dish" class="box" id="box8" draggable="true"></div>
-          <div><img src="../img/balance diet/豆漿.png" alt="popcorn" class="box" id="box9" draggable="true"></div> -->
-          <div><img src="../img/balance diet/rice.png" alt="rice" class="box" id="box10" draggable="true"></div>
-          <!-- <div><img src="../img/balance diet/芒果.png" alt="芒果" class="box" id="box11" draggable="true"></div> -->
-          <div><img src="../img/balance diet/綠豆仁.png" alt="綠豆仁" class="box" id="box12" draggable="true"></div>
-          <div><img src="../img/balance diet/紅薏仁.png" alt="紅薏仁" class="box" id="box13" draggable="true"></div>
-          <!-- <div><img src="../img/balance diet/炒馬鈴薯.png" alt="炒馬鈴薯" class="box" id="box14" draggable="true"></div> -->
-          <div><img src="../img/balance diet/沒削皮蘋果.png" alt="沒削皮蘋果" class="box" id="box15" draggable="true"></div>
-          <!-- <div><img src="../img/balance diet/意麵.png" alt="意麵" class="box" id="box16" draggable="true"></div> -->
-          <div><img src="../img/balance diet/綠豆.png" alt="綠豆" class="box" id="box17" draggable="true"></div>
-          <div><img src="../img/balance diet/削皮蘋果.png" alt="削皮蘋果" class="box" id="box18" draggable="true"></div>
-          <div><img src="../img/balance diet/白薏仁.png" alt="白薏仁" class="box" id="box19" draggable="true"></div>
-          <!-- <div><img src="../img/balance diet/滷雞腿.png" alt="滷雞腿" class="box" id="box20" draggable="true"></div> -->
-          <div><img src="../img/balance diet/eat more.png" alt="eat less" class="box" id="box15" draggable="true"></div>
-          <div><img src="../img/balance diet/eat less.png" alt="eat less" class="box" id="box16" draggable="true"></div>
-          <div><img src="../img/balance diet/eat more.png" alt="eat less" class="box" id="box15" draggable="true"></div>
-          <div><img src="../img/balance diet/eat less.png" alt="eat less" class="box" id="box16" draggable="true"></div>
+  <header class="main-header">
+    <div class="header-container">
+      <nav class="nav-box">
+        <input type="checkbox" id="menu">
+        <label for="menu" class="line">
+          <div class="menu"></div>
+        </label>
+        <div class="menu-list">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./momhealth.html">媽咪的營養=寶寶的健康</a></li>
+            <li><a href="./Customization.html">客製化ㄋㄟㄋㄟ</a></li>
+            <li><a href="./rainbow.html">彩虹般的食物</a>
+            <li><a href="./choosefood.html">原型食物/加工食物</a></li>
+            <li><a href="./balance diet.html">全食物/非全食物</a></li>
+            <li><a href="./balance diet copy.html">高油炸食物/高糖食物</a></li>
+            <li><a href="./pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
+            <li><a href="./breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
+            <li><a href="./sixfood.html">均衡飲食六大類食物</a></li>
+            <li><a href="./supermarket.html">SUPERMARKET</a></li>
+            <li><a href="./dietary recommendations.html">一天均衡飲食的量</a></li>
+            <!-- <li><a href="./grade.html">成績排行</a></li> -->
+          </ul>
         </div>
-      </div>
-      <div class="wrap" id="height">
-        <div class="target d-flex" id="target2"></div>
-        <div class="target d-flex " id="target3"></div>
-        
-      </div>
-      <div class="wrap" id="height">
-        <div class="target d-flex" id="target6"><div class="wordbox">全食物</div></div>
-        <div class="target d-flex " id="target7"><div class="wordbox">非全食物</div></div>
-        
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="word">
+      <!-- <div class="triangle" id="triangle1"></div> -->
+      <h1>全食物/非全食物</h1>
+    </div>
+    <div class="boxone">
+      <div class="target d-flex" id="target1">
+        <div><img src="../img/balance diet/picwish.png" alt="brown rice" class="box" id="box1" draggable="true"></div>
+        <!-- <div><img src="../img/balance diet/bubble tea.png" alt="bubble tea" class="box" id="box2" draggable="true"></div>
+          <div><img src="../img/balance diet/cake.png" alt="cake" class="box" id="box3" draggable="true"></div> -->
+        <!-- <div><img src="../img/balance diet/chicken.png" alt="chicken" class="box" id="box4" draggable="true"></div> -->
+        <!-- <div><img src="../img/balance diet/02一把青_愛文芒果乾.png" alt="corn" class="box" id="box5" draggable="true"></div>
+          <div><img src="../img/balance diet/冰淇淋.png" alt="drumstick" class="box" id="box6" draggable="true"></div> -->
+        <!-- <div><img src="../img/balance diet/french fries.png" alt="french fries" class="box" id="box7" draggable="true"></div> -->
+        <!-- <div><img src="../img/balance diet/鹹酥雞.png" alt="one dish" class="box" id="box8" draggable="true"></div>
+          <div><img src="../img/balance diet/豆漿.png" alt="popcorn" class="box" id="box9" draggable="true"></div> -->
+        <div><img src="../img/balance diet/rice.png" alt="rice" class="box" id="box10" draggable="true"></div>
+        <!-- <div><img src="../img/balance diet/芒果.png" alt="芒果" class="box" id="box11" draggable="true"></div> -->
+        <div><img src="../img/balance diet/綠豆仁.png" alt="綠豆仁" class="box" id="box12" draggable="true"></div>
+        <div><img src="../img/balance diet/紅薏仁.png" alt="紅薏仁" class="box" id="box13" draggable="true"></div>
+        <!-- <div><img src="../img/balance diet/炒馬鈴薯.png" alt="炒馬鈴薯" class="box" id="box14" draggable="true"></div> -->
+        <div><img src="../img/balance diet/沒削皮蘋果.png" alt="沒削皮蘋果" class="box" id="box15" draggable="true"></div>
+        <!-- <div><img src="../img/balance diet/意麵.png" alt="意麵" class="box" id="box16" draggable="true"></div> -->
+        <div><img src="../img/balance diet/綠豆.png" alt="綠豆" class="box" id="box17" draggable="true"></div>
+        <div><img src="../img/balance diet/削皮蘋果.png" alt="削皮蘋果" class="box" id="box18" draggable="true"></div>
+        <div><img src="../img/balance diet/白薏仁.png" alt="白薏仁" class="box" id="box19" draggable="true"></div>
+        <!-- <div><img src="../img/balance diet/滷雞腿.png" alt="滷雞腿" class="box" id="box20" draggable="true"></div> -->
+        <div><img src="../img/balance diet/eat more.png" alt="eat less" class="box" id="box20" draggable="true"></div>
+        <div><img src="../img/balance diet/eat less.png" alt="eat less" class="box" id="box21" draggable="true"></div>
+        <div><img src="../img/balance diet/eat more.png" alt="eat less" class="box" id="box22" draggable="true"></div>
+        <div><img src="../img/balance diet/eat less.png" alt="eat less" class="box" id="box23" draggable="true"></div>
       </div>
     </div>
+    <div class="wrap" id="height">
+      <div class="target d-flex" id="target2"></div>
+      <div class="target d-flex " id="target3"></div>
+
+    </div>
+    <div class="wrap" id="height">
+      <div class="target d-flex" id="target6">
+        <div class="wordbox">全食物</div>
+      </div>
+      <div class="target d-flex " id="target7">
+        <div class="wordbox">非全食物</div>
+      </div>
+
+    </div>
+  </div>
 </body>
+
 </html>
