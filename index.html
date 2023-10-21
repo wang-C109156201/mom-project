@@ -1,55 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>選擇食物</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/jquery.min.js"></script>
-    <script type="module" src="./js/index.js"></script>
-    <script src="./js/text.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" as="style">
-    
+    <title>會員登入系統</title>
+    <!-- CSS連結 -->
+    <link rel="stylesheet" href="./css/grade.css">
+
 </head>
+
 <body>
-  <header class="main-header">
-    <div class="header-container">
-      <nav class="nav-box">
-        <input type="checkbox" id="menu">
-        <label for="menu" class="line">
-            <div class="menu"></div>
-        </label>
-        <div class="menu-list">
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./html/momhealth.html">媽咪的營養=寶寶的健康</a></li>
-            <li><a href="./html/Customization.html">客製化ㄋㄟㄋㄟ</a></li>
-            <li><a href="./html/rainbow.html">彩虹的食物</a>
-            <li><a href="index.html">原型食物/加工食物</a></li>
-            <li><a href="./html/balance diet.html">全食物/非全食物</a></li>
-            <li><a href="./html/balance diet copy.html">高油炸食物/高糖食物</a></li>
-            <li><a href="./html/pregnancy forbidden diet.html">懷孕期禁止/限量食用</a></li>
-            <li><a href="./html/breastfeeding forbidden diet.html">哺乳期禁止/限量食用</a></li>
-            <li><a href="./html/sixfood.html">均衡飲食六大類食物</a></li>
-            <li><a href="./html/dietary recommendations.html">一天均衡飲食的量</a></li></li>
-            <li><a href="./html/grade.html">成績排行</a></li>
-          </ul>
-        </div>
-      </nav>
+
+    <h1>登入系統</h1>
+
+    <div class="container">
+        <form action="">
+            <!-- 使用者 -->
+            <label>使用者名稱</label>
+            <input type="text" id="username" name="username" required>
+            <!-- 密碼 -->
+            <label>密碼</label>
+            <input type="password" id="psw" name="psw" required>
+            <!-- 按鈕 -->
+            <button type="submit" id="submit">登入</button>
+        </form>
     </div>
-  </header>
-  <div class="container">
-    <div class="wrap">
-      <p class="text1 animate__bounceInLeft animate__animated animate__bounce">懷孕及哺乳媽咪的</p>
-      <p class="text2 hidden">營養手冊</p>
-      <p class="text3">-實在好健康-</p>
-    </div>
-    <!-- <img src="./img/封面.jpg" alt="封面" width="100%" class="img" > -->
-  </div>
+
+    <!-- 顯示規則的區域 -->
+
+    <!-- <div id="rule">
+        <h2>密碼規則</h2>
+        <p id="lowercase" class="invalid"> 至少1個小寫字母 </p>
+        <p id="uppercase" class="invalid"> 至少1個大寫字母 </p>
+        <p id="number" class="invalid"> 至少1個數字 </p>
+        <p id="length" class="invalid"> 至少8個數字/字母 </p>
+    </div> -->
+
+
+    <!-- JS連結 -->
+    <script src="./js/script.js"></script>
+
+
 </body>
+
 </html>
