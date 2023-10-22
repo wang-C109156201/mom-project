@@ -8,7 +8,7 @@ $(".box").on({
     $(".target").removeClass("over")
   }
 })
-  
+
 $(".target").on({
   "dragenter": function(event){
     event.preventDefault();
@@ -29,7 +29,7 @@ $(".target").on({
   },
   "drop": function(event){
     event.preventDefault();
-    // event.stopPropagation(); //停止事件氣泡現象
+     event.stopPropagation(); //停止事件氣泡現象
     console.log("drop");
     let id = event.originalEvent.dataTransfer.getData('text/plain');
     $("#"+id).appendTo(event.target);

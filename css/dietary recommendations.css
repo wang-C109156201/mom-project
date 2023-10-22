@@ -71,6 +71,7 @@ body{
   /* display: flex;
   float: left; */
   height: calc(100% - 25px);
+  flex-wrap: wrap;
 }
 #target1,#target10,#target11,#target12,#target13,#target14,#target28,#target29{
   min-height: 90px;
@@ -98,7 +99,7 @@ body{
 }
 #target6,#target7{
   display: block;
-  height: 9.5vw;
+  height: 10.2vw;
   margin: 3px;
   float: left;
   background-color: #82e06821;
@@ -112,14 +113,14 @@ body{
 }
 #target17,#target18{
   display: block;
-  height: 9.5vw;
+  height: 10.2vw;
   margin: 3px;
   float: left;
   background-color: #ffecac4d;
 }
 #target24,#target25{
   display: block;
-  height: 9.5vw;
+  height: 10.2vw;
   margin: 3px;
   float: left;
   background-color: #68bfe021;
@@ -174,7 +175,7 @@ body{
 .box{
   width: 4.15vw;
   height: 4vw;
-  padding: 5px;
+  padding: 3px;
   /* margin: 5px; */
   float: left;
   border-radius: 5px; 
@@ -193,32 +194,28 @@ body{
   width: 1.7vw;
   margin: 5px;
 }
-#box51{
+#box51,#box76{
   width: 6vw;
   margin-left: 0px;
   padding-left: 0px;
   margin-right: 0px;
   padding-right: 0px;
 }
-#box52{
+#box52,#box71,#box56{
   width: 5vw;
   margin-left: 0px;
   padding-left: 0px;
   margin-right: 0px;
   padding-right: 0px;
 }
+#box75{
+  width: 7.2vw;
+}
 #box54{
   width: 8vw;
 }
 #box55{
   width: 8.4vw;
-}
-#box56{
-  width: 8.4vw;
-  margin-left: 0px;
-  padding-left: 0px;
-  margin-right: 0px;
-  padding-right: 0px;
 }
 #box57{
   width: 8.4vw;
