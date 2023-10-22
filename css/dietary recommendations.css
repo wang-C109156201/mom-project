@@ -72,7 +72,7 @@ body{
   float: left; */
   height: calc(100% - 25px);
 }
-#target1,#target10,#target11,#target12,#target13,#target14,#target28{
+#target1,#target10,#target11,#target12,#target13,#target14,#target28,#target29{
   min-height: 90px;
   display: inline-block;
   border: 2px solid gray;
@@ -98,7 +98,7 @@ body{
 }
 #target6,#target7{
   display: block;
-  height: 7.8vw;
+  height: 9.5vw;
   margin: 3px;
   float: left;
   background-color: #82e06821;
@@ -112,14 +112,14 @@ body{
 }
 #target17,#target18{
   display: block;
-  height: 7.8vw;
+  height: 9.5vw;
   margin: 3px;
   float: left;
   background-color: #ffecac4d;
 }
 #target24,#target25{
   display: block;
-  height: 7.8vw;
+  height: 9.5vw;
   margin: 3px;
   float: left;
   background-color: #68bfe021;
@@ -227,7 +227,8 @@ body{
   width: 8.4vw;
 }
 #box62,#box63,#box64,#box65,#box66,#box67,#box68,#box69,#box70{
-  height: 5.5vw;
+  width: 3vw;
+  height: 4vw;
 }
 .container{
   background-color: white;
@@ -246,7 +247,7 @@ h1{
   margin: 0 10px;
   border-color: rgba(97, 126, 200, 0.42);
   color: #001936;
-  font-size: 13px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center; 
