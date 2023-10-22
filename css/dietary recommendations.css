@@ -96,6 +96,7 @@ body{
   float: left;
   margin: 3px 0px;
   background-color: #82e06821;
+  max-height: 10.2vw;
 }
 #target6,#target7{
   display: block;
@@ -110,6 +111,7 @@ body{
   float: left;
   margin: 3px 0px;
   background-color:  #ffecac4d;
+  max-height: 10.2vw;
 }
 #target17,#target18{
   display: block;
@@ -131,6 +133,7 @@ body{
   float: left;
   margin: 3px 0px;
   background-color: #68bfe021;
+  max-height: 10.2vw;
 }
 /* #target28{
   display:inline-block;
@@ -201,7 +204,7 @@ body{
   margin-right: 0px;
   padding-right: 0px;
 }
-#box52,#box71,#box56{
+#box52,#box71,#box56,#box2{
   width: 5vw;
   margin-left: 0px;
   padding-left: 0px;
@@ -241,10 +244,22 @@ h1{
   /* width: 100%; */
   height: 25px;
   border-bottom: 0.5px solid;
-  margin: 0 10px;
+  margin: 0 5px;
   border-color: rgba(97, 126, 200, 0.42);
   color: #001936;
-  font-size: 12px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.wordbox2{
+  /* width: 100%; */
+  height: 25px;
+  border-bottom: 0.5px solid;
+  margin: 0 5px;
+  border-color: rgba(97, 126, 200, 0.42);
+  color: #001936;
+  font-size: 11.5px;
   display: flex;
   align-items: center;
   justify-content: center; 

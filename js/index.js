@@ -12,14 +12,19 @@ $(".box").on({
 $(".target").on({
   "dragenter": function(event){
     event.preventDefault();
-    
+
     console.log("dragenter");
   },
   "dragover": function(event){
     event.preventDefault();
     $(this).addClass("over")
     
-    console.log("dragover");
+    //console.log("dragover");
+    // 检查是否有其他框在该位置
+    if ($(this).find(".box").length > 0) {
+      // 如果有其他框，禁止放置
+      $(this).removeClass("over");
+    }
     
   },
   "dragleave": function(){
