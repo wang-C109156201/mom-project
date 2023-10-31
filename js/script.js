@@ -21,8 +21,8 @@ loginButton.disabled = true;
 
 password.onkeyup = function() {
     // 如果密码为 "class1024"，且其他验证条件也通过
-    if (password.value === "happyTime" && username.value === "happyTime") {
-        console.log("happyTime");
+    if (password.value === "class1101" && username.value === "class1101") {
+        console.log("class1101");
         // 启用登录按钮
         loginButton.disabled = false;
     } else {
