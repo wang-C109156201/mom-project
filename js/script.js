@@ -19,10 +19,10 @@ var loginButton = document.getElementById("submit");
 loginButton.disabled = true;
 // 當使用者輸入時(onkeyup)，透過if else 來確認是否 match
 
-password.onkeyup = function() {
+password.onkeyup = function () {
     // 如果密码为 "class1024"，且其他验证条件也通过
-    if (password.value === "pass1206" && username.value === "pass1206") {
-        console.log("pass1206");
+    if (password.value === "2024happynewyear" && username.value === "2024happynewyear") {
+        // console.log("pass1206");
         // 启用登录按钮
         loginButton.disabled = false;
     } else {
@@ -71,7 +71,7 @@ password.onkeyup = function() {
 
 
 }
-loginButton.onclick = function() {
+loginButton.onclick = function () {
     // 在此处执行页面跳转，例如：
     window.location.href = "./html/momhealth.html";
     alert("成功登入!")
