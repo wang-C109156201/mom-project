@@ -21,7 +21,7 @@ loginButton.disabled = true;
 
 password.onkeyup = function () {
     // 如果密码为 "class1024"，且其他验证条件也通过
-    if (password.value === "2025goodtotry" && username.value === "2025goodtotry") {
+    if (password.value === "2025genius" && username.value === "2025goodtotry") {
         // console.log("pass1206");
         // 启用登录按钮
         loginButton.disabled = false;
@@ -76,5 +76,6 @@ loginButton.onclick = function () {
     window.location.href = "./html/momhealth.html";
     alert("成功登入!")
 }
+
 
 
